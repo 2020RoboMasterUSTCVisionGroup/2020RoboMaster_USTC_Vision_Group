@@ -1,2 +1,0 @@
-# 2020RoboMaster_USTC_Vision_Group
-2020年Robomaster中科大战队视觉组代码管理库（内部人员使用）
