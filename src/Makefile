@@ -4,14 +4,16 @@ CC = g++
 #目标名
 TARGET = Vision
 
-INCLUDE = -I ../include
+INCLUDE = -I../include
 
-CFLAGS = -o -g -Wall -fPIC $(INCLUDE)
+#vpath %.h ../include
+CFLAGS = -g -o  
 
 #动态库的引用
-LIBVAR = $(wildcard ../lib/*.so)
+LIBVAR = -lMvCameraControl -lX11
 
-LIBPATH = -L ../lib
+LIBPATH = -L../lib
+LPATHRUN = -Wl,-rpath=../lib
 #定义变量pkg表示opencv的包
 PKG = `pkg-config opencv --libs --cflags`
 #CPPFLAGS = -E -D
@@ -22,9 +24,9 @@ SRCFILE = $(wildcard *.cpp)
 DEFFILE = $(patsubst %.cpp, %.o, $(SRCFILE))
 
 
-$(TARGET):$(DEFFILE)
-	$(CC) -o $(TARGET) $^ $(PKG) $(CFLAGS) $(LIBPATH)
-%.o : %.c
-	$(CC) $(CFLAGS) $< $@ 
+$(TARGET):$(SRCFILE)
+	$(CC) $(CFLAGS) $(TARGET) $(SRCFILE) $(INCLUDE) $(LPATHRUN) $(LIBPATH) $(LIBVAR) $(PKG) 
+#%.o : %.c
+##	$(CC) $(CFLAGS) $< $@ 
 clean:
 	-$(RM) $(TARGET) $(DEFFILE)
