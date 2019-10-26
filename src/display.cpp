@@ -101,7 +101,7 @@ int main()
 			{
 				cv::Mat pImg(height, width, CV_8UC3, pFrameBuf);
 				cv::imshow("Carema", pImg);
-				cv::waitKey(10);
+				cv::waitKey(100);
 			}
  
 			
