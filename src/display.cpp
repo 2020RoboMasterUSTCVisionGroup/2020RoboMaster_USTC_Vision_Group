@@ -1,14 +1,16 @@
 #include "MvCameraControl.h"
 #include <iostream>
 #include <opencv2/opencv.hpp>
+#include "cameraTransfer.h"
  
 using namespace std;
 using namespace cv;
 #define MAX_BUF_SIZE    (1920*1200*3)
  
  
-int main()
+int main(int argc, char *argv[], char **env)
 {
+	cameraTransfer();
 	int nRet = -1;
 	void* m_handle = NULL;
  
@@ -79,10 +81,10 @@ int main()
 	//此次代码仅供参考，实际应用建议另建线程进行图像帧采集和处理
 	while (1)
 	{
-		if (nTestFrameSize > 50)
-		{
-			break;
-		}
+		//  if (nTestFrameSize > 50)
+		// {
+		// 	break;
+		// }
 		nRet = MV_CC_GetImageForBGR(m_handle, pFrameBuf, nBufSize, &stInfo, 1000);
 		if (nRet != 0)
 		{
@@ -99,16 +101,21 @@ int main()
  
 			if (stInfo.enPixelType == PixelType_Gvsp_BGR8_Packed)
 			{
-				cv::Mat pImg(height, width, CV_8UC3, pFrameBuf);
-				cv::imshow("Carema", pImg);
-				cv::waitKey(100);
+				Mat pImg(height, width, CV_8UC3, pFrameBuf), dstImage;
+				cvNamedWindow("Original");
+				imshow("Carema", pImg);
+				
+				blur(pImg, dstImage, Size(114,114));
+				cvNamedWindow("blur");
+				imshow("blur", dstImage);
+				waitKey(10);
 			}
  
 			
  
  
  
-			nTestFrameSize++;
+			// nTestFrameSize++;
 		}
 	}
  
