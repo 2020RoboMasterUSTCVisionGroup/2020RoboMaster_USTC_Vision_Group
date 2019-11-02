@@ -15,6 +15,8 @@ int main(int argc, char *argv[], char **env)
 	void* m_handle = NULL;
 	
 	printf("Do not printf helloworld!\n");
+ 	printf("helloworld!\n");
+	int test = 1;
 	//枚举子网内指定的传输协议对应的所有设备
 	unsigned int nTLayerType = MV_USB_DEVICE;
 	MV_CC_DEVICE_INFO_LIST m_stDevList = { 0 };
