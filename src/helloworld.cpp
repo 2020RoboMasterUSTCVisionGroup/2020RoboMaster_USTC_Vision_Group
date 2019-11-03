@@ -6,7 +6,7 @@ int main()
     cout<<"please use cout"
     printf("not hahahahhello\n");
     cout<<"lalala"
-    printf("20191103-zhuyj")
+    printf("20191103--zhuyj")
     printf("USTC DAILANG");  //戴浪
     printf("2020robomaster"); //zhangjingyi
     int a =1;
