@@ -10,6 +10,7 @@ int main()
     printf("USTC DAILANG");  //戴浪
     printf("2020robomaster"); //zhangjingyi
     printf("dch"); //daichenghao
+    printf("happy day");//江培玲
     int a =1;
     return 0;
 }
