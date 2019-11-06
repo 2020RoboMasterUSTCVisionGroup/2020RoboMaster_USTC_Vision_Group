@@ -9,6 +9,7 @@ int main()
     printf("20191103-zhuyj")
     printf("USTC DAILANG");  //戴浪
     printf("2020robomaster"); //zhangjingyi
+    printf("vision group is good!");//王妍璐
     printf("dch"); //daichenghao
     int a =1;
     return 0;
