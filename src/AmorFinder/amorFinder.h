@@ -98,14 +98,17 @@ class AmorFinder{
         Mat input_img;
         Mat out_img,img_dim;
     public:
-        AmorFinder(Mat input_img){
-            this->input_img = input_img;
-        };
-        AmorFinder(std::string path){
-            this->input_img = imread(path);
+        AmorFinder(){
+            std::cout<<"ArmorFinder constructed!"<<std::endl;
         };
         ~AmorFinder(){
             std::cout<<"ArmorFinder delete!"<<std::endl;
+        }
+        void setImage(Mat img){
+            this->input_img = img;
+        }
+        void setImage(std::string path){
+            this->input_img = imread(path);
         }
         //预处理，得到开闭运算后的图片
         bool preProcess(int light_threshold){
