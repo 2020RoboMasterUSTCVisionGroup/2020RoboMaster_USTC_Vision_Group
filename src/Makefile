@@ -13,7 +13,12 @@ CFLAGS = -g -o
 #CPPFLAGS = -E -D
 
 #动态库的引用
+<<<<<<< HEAD
+LIBVAR = -lMvCameraControl -lX11 -lMVGigEVisionSDK
+
+=======
 LIBVAR = -lMvCameraControl 
+>>>>>>> 8306ff84072d66baae742f196a8cd335f1dc0653
 LIBPATH = -L../lib
 LPATHRUN = -Wl,-rpath=../lib
 #定义变量pkg表示opencv的包
@@ -25,6 +30,16 @@ RM = rm -rf
 
 SRCFILE = $(wildcard *.cpp)
 DEFFILE = $(patsubst %.cpp, %.o, $(SRCFILE))
+<<<<<<< HEAD
+#--------------------------命令操作----------------------------------------------
+#$^ 代表所有依赖文件
+#$@ 代表目标文件
+#$< 代表第一个文件
+$(TARGET):$(DEFFILE)
+	$(CC) $(CFLAGS) $(TARGET) $(DEFFILE) $(INCLUDE) $(LPATHRUN) $(LIBPATH) $(LIBVAR) $(PKG) 
+%.o:%.cpp
+	$(CC) -c $< -o $@ $(INCLUDE)
+=======
 $(warning "All the cpp file is $(SRCFILE)")
 #--------------------------命令操作----------------------------------------------
 #$^ 代表所有依赖文件
@@ -34,6 +49,7 @@ $(TARGET):$(DEFFILE)
 	$(CC) $(CFLAGS) $(TARGET) $(DEFFILE) $(INCLUDE) $(LPATHRUN) $(LIBPATH) $(LIBVAR) $(PKG) 
 %.o:%.cpp
 	$(CC) -c $< -o $@ $(INCLUDE) $(LPATHRUN) $(PKG)
+>>>>>>> 8306ff84072d66baae742f196a8cd335f1dc0653
 #---------------------------伪指令---------------------------------------------
 #clean操作，删除生成的文件和文件夹
 #如运行过需执行sudo操作
