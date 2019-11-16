@@ -29,11 +29,11 @@ namespace util
 // TIMER_MIN 定义start到stop经历多少分钟
 #define TIMER_MIN(_X)                                                                              \
     std::chrono::duration_cast<std::chrono::minutes>(_X##_stop - _X##_start).count()
-//
+//统计耗时（ms）
 #define TIME_COST_MS(name) std::cout << name <<" Cost: " << TIMER_MSEC(x) << " ms.\n"
-
+//统计耗时（s）
 #define TIME_COST_S(name) std::cout <<name<< " Cost :" << TIMER_SEC(x) << " s.\n"
-
+//统计耗时（min）
 #define TIME_COST_MIN(name) std::cout <<name<< " Cost: " << TIMER_SEC(x) << " s.\n"
 
 }
