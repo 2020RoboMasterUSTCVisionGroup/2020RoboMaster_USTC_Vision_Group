@@ -2,7 +2,9 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include "cameraTransfer.h"
- 
+
+#include "math.h"
+
 using namespace std;
 using namespace cv;
 #define MAX_BUF_SIZE    (1920*1200*3)
