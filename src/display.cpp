@@ -1,10 +1,15 @@
 #include "MvCameraControl.h"
 #include <iostream>
 #include <opencv2/opencv.hpp>
+<<<<<<< HEAD
 #include "cameraTransfer.h"
 
 #include "math.h"
 
+=======
+//#include "nanh.h"
+ 
+>>>>>>> a6315b09bea9384b22427b026a7e1611bf89eb9a
 using namespace std;
 using namespace cv;
 #define MAX_BUF_SIZE    (1920*1200*3)
