@@ -1,0 +1,16 @@
+1  git remote
+结果:origin
+2  git remote -v
+结果:origin	git@github.com:2020RoboMasterUSTCVisionGroup/2020RoboMaster_USTC_Vision_Group.git (fetch)
+     origin	git@github.com:2020RoboMasterUSTCVisionGroup/2020RoboMaster_USTC_Vision_Group.git (push)
+3  git branch
+结果: * dev
+	master
+4  git pull
+在出现的nano编辑器中CTRL+c CTRL+x保存推出
+5  会在被修改的文件中看到更改的情况，建议使用vscode进行排除冲突
+6  确认没有冲突之后，开始上传
+7  git add <修改的文件或者直接.（表示当前目录）>
+8  git commit -m "要提交的信息"
+9  git push origin dev
+

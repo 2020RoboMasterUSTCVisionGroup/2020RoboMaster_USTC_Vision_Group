@@ -1,9 +1,0 @@
-Usage for Makefile
-1、install .so to /usr/local/lib
-    make add-library
-2、clean all project
-    make clean
-3、make the file
-    make
-#usage of Makefile
-
