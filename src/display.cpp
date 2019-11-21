@@ -1,7 +1,7 @@
 #include "MvCameraControl.h"
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include "cameraTransfer.h"
+//#include "nanh.h"
  
 using namespace std;
 using namespace cv;
