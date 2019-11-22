@@ -49,7 +49,7 @@ $(CAMERA_DEFFILE):$(CAMERA_SRCFILE)
 .PHONY:clean
 clean:
 	$(RM) $(TARGET) $(ARMOR_FINDER_DEFFILE) $(CAMERA_DEFFILE)
-	#$(RM) -rf MvSdkLog
+#$(RM) -rf MvSdkLog
 #伪指令add-library
 #将动态库安装到系统路径中。
 .PHONY:add-library
