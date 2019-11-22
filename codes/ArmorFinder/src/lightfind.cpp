@@ -18,7 +18,7 @@ Mat channelSwitching(const Mat& src);
 
 int main()
 {
-	Mat frame0 = imread("aa.png");
+	Mat frame0 = imread("./test.png");
 	Size imgSize;
     RotatedRect s;   //定义旋转矩形
     vector<RotatedRect> vEllipse; //定以旋转矩形的向量，用于存储发现的目标区域

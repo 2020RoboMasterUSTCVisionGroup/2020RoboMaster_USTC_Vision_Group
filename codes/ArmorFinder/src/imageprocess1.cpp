@@ -28,7 +28,7 @@ void drawBox(RotatedRect box,Mat img)
 int main()
 {
     Mat image1,red_channel,diffimg,afterprc,light_loc;  /*创建图像容器*/
-    Mat image = imread("before.png");         /*将项目中的before.png图像读入到image中*/
+    Mat image = imread("./test.png");         /*将项目中的before.png图像读入到image中*/
     vector<vector<Point> > contour;           /*定义二维浮点型变量存放找到的边界坐标*/
     bool bFlag = false;
     RotatedRect s;                            /*定义旋转矩形*/
