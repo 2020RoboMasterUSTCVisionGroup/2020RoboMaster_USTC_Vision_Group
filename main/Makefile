@@ -3,24 +3,20 @@
 #编译器为g++
 CC = g++
 #目标名
-TARGET = Vision
+TARGET = vision
 
 #头文件包含路径
-INCLUDE = -I../include
+AROMOR_FINDER_INCLUDE = -I../codes/ArmorFinder/include
+CAMERA_INCLUDE = -I../codes/Camera/include
 
 #vpath %.h ../include
 CFLAGS = -g -o  
 #CPPFLAGS = -E -D
 
 #动态库的引用
-<<<<<<< HEAD
-LIBVAR = -lMvCameraControl -lX11 -lMVGigEVisionSDK
-
-=======
-LIBVAR = -lMvCameraControl 
->>>>>>> 8306ff84072d66baae742f196a8cd335f1dc0653
-LIBPATH = -L../lib
-LPATHRUN = -Wl,-rpath=../lib
+CAMERA_LIBVAR = -lMvCameraControl 
+CAMERA_LIBPATH = -L../codes/Camera/lib
+LPATHRUN = -Wl,-rpath=../codes/Camera/lib
 #定义变量pkg表示opencv的包
 PKG = `pkg-config opencv --libs --cflags`
 
@@ -28,37 +24,34 @@ PKG = `pkg-config opencv --libs --cflags`
 #删除指令变量参数
 RM = rm -rf
 
-SRCFILE = $(wildcard *.cpp)
-DEFFILE = $(patsubst %.cpp, %.o, $(SRCFILE))
-<<<<<<< HEAD
-#--------------------------命令操作----------------------------------------------
-#$^ 代表所有依赖文件
-#$@ 代表目标文件
-#$< 代表第一个文件
-$(TARGET):$(DEFFILE)
-	$(CC) $(CFLAGS) $(TARGET) $(DEFFILE) $(INCLUDE) $(LPATHRUN) $(LIBPATH) $(LIBVAR) $(PKG) 
-%.o:%.cpp
-	$(CC) -c $< -o $@ $(INCLUDE)
-=======
-$(warning "All the cpp file is $(SRCFILE)")
+ARMOR_FINDER_SRCFILE = $(wildcard ../codes/ArmorFinder/src/*.cpp)
+ARMOR_FINDER_DEFFILE = $(patsubst %.cpp, %.o, $(ARMOR_FINDER_SRCFILE))
+#摄像头源文件和目标文件
+CAMERA_SRCFILE = $(wildcard ../codes/Camera/src/*.cpp)
+CAMERA_DEFFILE = $(patsubst %.cpp, %.o, $(CAMERA_SRCFILE))
 #--------------------------命令操作----------------------------------------------
 #$^ 代表所有依赖文件
 #$@ 代表目标文件
 #$< 代表依赖第一个文件
-$(TARGET):$(DEFFILE)
-	$(CC) $(CFLAGS) $(TARGET) $(DEFFILE) $(INCLUDE) $(LPATHRUN) $(LIBPATH) $(LIBVAR) $(PKG) 
-%.o:%.cpp
-	$(CC) -c $< -o $@ $(INCLUDE) $(LPATHRUN) $(PKG)
->>>>>>> 8306ff84072d66baae742f196a8cd335f1dc0653
+$(TARGET):$(ARMOR_FINDER_DEFFILE) $(CAMERA_DEFFILE)
+#	$(CC) $(DEFFILE) $(CFLAGS) $(TARGET) $(INCLUDE) $(LPATHRUN) $(LIBPATH) $(LIBVAR) $(PKG) 
+	$(CC) $(CAMERA_DEFFILE) $(ARMOR_FINDER_DEFFILE) main.cpp $(CFLAGS) $(TARGET) $(CAMERA_LIBVAR) $(PKG) $(CAMERA_INCLUDE)
+#%.o:%.cpp
+#	$(CC) -c $< -o $@ $(AROMOR_FINDER_INCLUDE) $(LPATHRUN) $(PKG)
+$(ARMOR_FINDER_DEFFILE):$(ARMOR_FINDER_SRCFILE)
+	$(CC) -c $^ -o $@ $(AROMOR_FINDER_INCLUDE) $(PKG)
+$(CAMERA_DEFFILE):$(CAMERA_SRCFILE)
+	$(CC) -c $^ -o $@ $(CAMERA_INCLUDE) $(PKG) $(CAMERA_INCLUDE) $(CAMERA_LIBVAR) $(LPATHRUN)
+
 #---------------------------伪指令---------------------------------------------
 #clean操作，删除生成的文件和文件夹
 #如运行过需执行sudo操作
 .PHONY:clean
 clean:
-	$(RM) $(TARGET) $(DEFFILE)
-	$(RM) MvSdkLog
+	$(RM) $(TARGET) $(ARMOR_FINDER_DEFFILE) $(CAMERA_DEFFILE)
+	#$(RM) -rf MvSdkLog
 #伪指令add-library
 #将动态库安装到系统路径中。
 .PHONY:add-library
-add-library:
-	sudo cp ../lib/* /usr/local/lib
+add-libraries:
+	sudo cp ../codes/Camera/lib/* /usr/local/lib

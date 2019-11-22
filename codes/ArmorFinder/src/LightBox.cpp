@@ -1,14 +1,24 @@
 
-/**
-*@author:王妍璐 江培玲
-*@function:对图片进行通道拆分和腐蚀膨胀以提取出灯条
-*/
+/*-----------------------------文件--------------------
+*   文件名：LightBox.cpp
+*   作者：  王妍璐 江培玲
+*   功能：  对图片进行通道拆分和腐蚀膨胀以提取出灯条
+------------------------------------------------------*/
+//-----------------------------头文件引用和命名空间-------------------
 #include <opencv2/highgui.hpp>     
 #include <opencv2/opencv.hpp>
 #include <iostream>
 using namespace cv;                           /*之后程序中使用cv和std命名空间的资源时不用加前缀*/
 using namespace std;
 
+/**
+*@author：王妍璐 江培玲
+*@name：drawBox()
+*@return:void
+*@function：
+*@para：box: img:
+*其他要注意的地方
+**/
 void drawBox(RotatedRect box,Mat img)
 {
     Point2f pt[4];
@@ -24,16 +34,22 @@ void drawBox(RotatedRect box,Mat img)
     line(img, pt[2], pt[3], CV_RGB(255, 0, 0), 2, 8, 0);
     line(img, pt[3], pt[0], CV_RGB(255, 0, 0), 2, 8, 0);
 }
-    
-int main()
+/**
+*@author：王妍璐 江培玲
+*@name：main()
+*@return:void
+*@function：
+*@para：box: img:
+*其他要注意的地方
+**/  
+int lightBox(Mat image)
 {
-    Mat image1,red_channel,diffimg,afterprc,light_loc;  /*创建图像容器*/
-    Mat image = imread("before.png");         /*将项目中的before.png图像读入到image中*/
+    Mat image1,red_channel,diffimg,afterprc,light_loc;  /*创建图像容器*/         /*将项目中的before.png图像读入到image中*/
     vector<vector<Point> > contour;           /*定义二维浮点型变量存放找到的边界坐标*/
     bool bFlag = false;
     RotatedRect s;                            /*定义旋转矩形*/
     vector<RotatedRect> vEllipse;             /*定以旋转矩形的向量，用于存储发现的目标区域*/
-    imshow("原图",image);                   /*显示处理前的图像*/
+    //imshow("原图",image);                   /*显示处理前的图像*/
     image1 = image;
     int val;
     for (int i = 0; i<image1.rows; i++)       /*每个像素每个通道的值减40*/
@@ -105,13 +121,7 @@ int main()
         drawBox(vEllipse[nI], light_loc);
     }   
     imshow("圈出灯条位置", light_loc);
-    imwrite("after.png",light_loc);
-    while(1)
-    {
-        int key=waitKey(10); 
-        if (key==27)                                     /*按ESC键退出循环*/
-        break;
-    }
+    //imwrite("after.png",light_loc);
                                                                 
-    return 0;
+    return 1;
 }

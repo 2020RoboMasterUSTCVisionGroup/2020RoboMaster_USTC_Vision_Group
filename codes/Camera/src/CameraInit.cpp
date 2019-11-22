@@ -13,8 +13,8 @@ using namespace std;
 
 #define MAX_IMAGE_DATA_SIZE   (1920*1200*3)
 //------------------------全局变量-----------------------
-extern int nRet = -1;
-extern void* handle = NULL;
+extern int nRet  = -1 ;
+extern void* handle  = NULL ;
 //-------------------------函数区------------------------------
 /**
  * @author      Seafood
