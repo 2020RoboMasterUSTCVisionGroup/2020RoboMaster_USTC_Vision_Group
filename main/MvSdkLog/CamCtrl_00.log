@@ -1,0 +1,4 @@
+[2019-11-22 09:20:22] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2019-11-22 09:20:22] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2019-11-22 09:20:22] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1686116608]
+[2019-11-22 09:20:22] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1694509312]

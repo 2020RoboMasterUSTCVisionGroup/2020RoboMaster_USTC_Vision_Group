@@ -16,7 +16,7 @@ using namespace std;
 #define MAX_IMAGE_DATA_SIZE   (1920*1200*3)
 int cameraInit();
 int cameraExit();
-
+int lightBox(Mat image);
 //------------------------全局变量定义---------------------
 //变量定义阶段
 extern int nRet;
@@ -68,6 +68,10 @@ int main(int argc, char *argv[], char **env)
 				Mat pImg(height, width, CV_8UC3, pFrameBuf);
 				cvNamedWindow( "摄像头窗口", 1 ); 
                 imshow("摄像头窗口", pImg);
+                if( lightBox(pImg) == 1 )
+                {
+                    //printf("picture processed.\n");
+                }
 				waitKey(10);
 			}
         }
