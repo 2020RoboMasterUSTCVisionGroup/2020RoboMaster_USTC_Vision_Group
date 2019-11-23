@@ -3,18 +3,7 @@
 *   作者：  孙霖
 *   功能：  摄像头打开设置关闭
 ------------------------------------------------------*/
-//------------------------包含文件和命名空间-------------------  
-#include "opencv2/opencv.hpp"
-#include <stdio.h>
-#include "MvCameraControl.h"
-
-using namespace cv;
-using namespace std;
-
-#define MAX_IMAGE_DATA_SIZE   (1920*1200*3)
-//------------------------全局变量-----------------------
-extern int nRet  = -1 ;
-extern void* handle  = NULL ;
+#include "cameraInit.h"
 //-------------------------函数区------------------------------
 /**
  * @author      Seafood

@@ -120,6 +120,8 @@ int lightBox(Mat image)
     {
         drawBox(vEllipse[nI], light_loc);
     }   
+    cvNamedWindow( "圈出灯条位置", 0 ); 
+    resizeWindow("圈出灯条位置", 800, 600);
     imshow("圈出灯条位置", light_loc);
     //imwrite("after.png",light_loc);
                                                                 
