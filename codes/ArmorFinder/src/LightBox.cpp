@@ -11,6 +11,8 @@
 using namespace cv;                           /*之后程序中使用cv和std命名空间的资源时不用加前缀*/
 using namespace std;
 
+#define T_ANGLE_THRE 10
+#define T_SIZE_THRE 5
 /**
 *@author：王妍璐 江培玲
 *@name：drawBox()
@@ -19,7 +21,7 @@ using namespace std;
 *@para：box: img:
 *其他要注意的地方
 **/
-void drawBox(RotatedRect box,Mat img)
+void drawBox(RotatedRect &box,Mat &img)
 {
     Point2f pt[4];
     int i;
@@ -33,6 +35,48 @@ void drawBox(RotatedRect box,Mat img)
     line(img, pt[1], pt[2], CV_RGB(255, 0, 0), 2, 8, 0);
     line(img, pt[2], pt[3], CV_RGB(255, 0, 0), 2, 8, 0);
     line(img, pt[3], pt[0], CV_RGB(255, 0, 0), 2, 8, 0);
+}
+vector<RotatedRect> armorDetect(vector<RotatedRect> vEllipse)
+{
+    vector<RotatedRect> vRlt;
+    RotatedRect armor; //定义装甲区域的旋转矩形
+    int nL, nW;
+    double dAngle;
+    vRlt.clear();
+    if (vEllipse.size() < 2) //如果检测到的旋转矩形个数小于2，则直接返回
+        return vRlt;
+    for (unsigned int nI = 0; nI < vEllipse.size() - 1; nI++) //求任意两个旋转矩形的夹角
+    {
+        for (unsigned int nJ = nI + 1; nJ < vEllipse.size(); nJ++)
+        {
+            dAngle = abs(vEllipse[nI].angle - vEllipse[nJ].angle);
+            while (dAngle > 180)
+                dAngle -= 180;
+          //判断这两个旋转矩形是否是一个装甲的两个LED等条
+            if ((dAngle < T_ANGLE_THRE || 180 - dAngle < T_ANGLE_THRE) && abs(vEllipse[nI].size.height - vEllipse[nJ].size.height) < (vEllipse[nI].size.height + vEllipse[nJ].size.height) / T_SIZE_THRE && abs(vEllipse[nI].size.width - vEllipse[nJ].size.width) < (vEllipse[nI].size.width + vEllipse[nJ].size.width) / T_SIZE_THRE) 
+            {
+                armor.center.x = (vEllipse[nI].center.x + vEllipse[nJ].center.x) / 2; //装甲中心的x坐标 
+                armor.center.y = (vEllipse[nI].center.y + vEllipse[nJ].center.y) / 2; //装甲中心的y坐标
+                armor.angle = (vEllipse[nI].angle + vEllipse[nJ].angle) / 2;   //装甲所在旋转矩形的旋转角度
+                if (180 - dAngle < T_ANGLE_THRE)
+                    armor.angle += 90;
+                nL = (vEllipse[nI].size.height + vEllipse[nJ].size.height) / 2; //装甲的高度
+                nW = sqrt((vEllipse[nI].center.x - vEllipse[nJ].center.x) * (vEllipse[nI].center.x - vEllipse[nJ].center.x) + (vEllipse[nI].center.y - vEllipse[nJ].center.y) * (vEllipse[nI].center.y - vEllipse[nJ].center.y)); //装甲的宽度等于两侧LED所在旋转矩形中心坐标的距离
+                if (nL < nW)
+                {
+                    armor.size.height = nL;
+                    armor.size.width = nW;
+                }
+                else
+                {
+                    armor.size.height = nW;
+                    armor.size.width = nL;
+                }
+                vRlt.push_back(armor); //将找出的装甲的旋转矩形保存到vector
+            }
+        }
+    }
+    return vRlt;
 }
 /**
 *@author：王妍璐 江培玲
@@ -49,6 +93,7 @@ int lightBox(Mat image)
     bool bFlag = false;
     RotatedRect s;                            /*定义旋转矩形*/
     vector<RotatedRect> vEllipse;             /*定以旋转矩形的向量，用于存储发现的目标区域*/
+    vector<RotatedRect> vRlt;
     //imshow("原图",image);                   /*显示处理前的图像*/
     image1 = image;
     int val;
@@ -115,14 +160,17 @@ int lightBox(Mat image)
                 }
 
             }
-    cvtColor(afterprc,light_loc,CV_GRAY2BGR);
-    for (unsigned int nI = 0; nI < vEllipse.size(); nI++) //在当前图像中标出灯条的位置
+    vRlt = armorDetect(vEllipse); 
+   // cvtColor(afterprc,light_loc,CV_GRAY2BGR);
+    for (unsigned int nI = 0; nI < vRlt.size(); nI++) //在当前图像中标出灯条的位置
     {
-        drawBox(vEllipse[nI], light_loc);
+       // drawBox(vEllipse[nI], light_loc);
+       drawBox(vRlt[nI], image);
     }   
     cvNamedWindow( "圈出灯条位置", 0 ); 
     resizeWindow("圈出灯条位置", 800, 600);
-    imshow("圈出灯条位置", light_loc);
+    imshow("圈出灯条位置", image);
+    waitKey(10);
     //imwrite("after.png",light_loc);
                                                                 
     return 1;

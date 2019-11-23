@@ -5,6 +5,8 @@
 ------------------------------------------------------*/
 #include "main.h"
 //-----------------------主函数定义------------------------
+
+
 int main(int argc, char *argv[], char **env)
 {    	
 	systemInit();
@@ -31,34 +33,36 @@ int main(int argc, char *argv[], char **env)
 			    if (stInfo.enPixelType == PixelType_Gvsp_BGR8_Packed)
 			    {
 				    Mat pImg(height, width, CV_8UC3, pFrameBuf);
+                    g_srcImage = pImg;
 			    }
+                
             }
+            break;
         }
         case SOURCE_VIDEO:
         {
             g_capture>>g_srcImage;
+            break;
         }
         }
+        /*
         cvNamedWindow( "摄像头窗口", 0); 
         resizeWindow("摄像头窗口", 800, 600);
         imshow("摄像头窗口", g_srcImage);
-        if( lightBox(g_srcImage) == 1 )
-        {
-            //printf("picture processed.\n");
-        }
-        waitKey(10);
+        waitKey(10);*/
+        if( lightBox(g_srcImage) == 1 );
         
-        cameraExit();
-
-        return 0;
+        
     }
+    cameraExit();
+    return 0;
 }
 
 void systemInit()
 {
     cout << "Input 1 for camera, 0 for video" << endl;
     cin >> g_source_image;
-    if(g_source_image == SOURCE_CAMERA)
+    if(g_source_image == 1)
     {
         if( cameraInit() == CAMERA_INIT_SUCCESS)
         {
@@ -78,9 +82,9 @@ void systemInit()
             memset(&stInfo, 0, sizeof(MV_FRAME_OUT_INFO_EX));
         }
     }
-    else if(g_source_image = SOURCE_VIDEO)
+    else
     {
+        g_capture.open("../material/video/rmvideo.mp4");//视频文件
         //视频读取
-        g_capture.open("../material/video/rmvideo.mp4");
     }
 }

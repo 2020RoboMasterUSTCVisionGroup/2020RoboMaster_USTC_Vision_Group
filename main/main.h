@@ -1,3 +1,5 @@
+#ifndef MAIN_H_
+#define MAIN_H_
 //------------------------包含文件和命名空间-------------------  
 #include "opencv2/opencv.hpp"
 #include <stdio.h>
@@ -11,6 +13,7 @@
 using namespace cv;
 using namespace std;
 
+
 #define MAX_IMAGE_DATA_SIZE   (1920*1200*3)
 #define SOURCE_CAMERA    1
 #define SOURCE_VIDEO    0
@@ -21,12 +24,14 @@ void systemInit();
 //------------------------全局变量定义---------------------
 //变量定义阶段
 int g_source_image;
-extern int nRet;    //相机状态定义
-extern void* handle;    //
+VideoCapture g_capture;
 Mat g_srcImage;     //原图像每一帧
-VideoCapture g_capture;//视频文件
+//extern int nRet;    //相机状态定义
+//extern void* handle;    //
 //一帧数据大小
 int nBuffSize = MAX_IMAGE_DATA_SIZE;
 unsigned int nTestFrameSize = 0;
 unsigned char* pFrameBuf = NULL;
 MV_FRAME_OUT_INFO_EX stInfo;
+
+#endif

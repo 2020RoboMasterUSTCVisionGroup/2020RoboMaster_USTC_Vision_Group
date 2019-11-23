@@ -15,7 +15,7 @@ using namespace std;
 int cameraInit();
 int cameraExit();
 //------------------------全局变量-----------------------
-extern int nRet  = -1 ;
-extern void* handle  = NULL ;
+extern int nRet  ;
+extern void* handle ;
 
 #endif
