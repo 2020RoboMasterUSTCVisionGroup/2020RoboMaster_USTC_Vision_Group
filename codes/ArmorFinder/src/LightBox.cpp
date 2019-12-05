@@ -87,7 +87,8 @@ vector<RotatedRect> armorDetect(vector<RotatedRect> vEllipse)
 *其他要注意的地方
 **/  
 int lightBox(Mat image)
-{
+{  
+    std::cout<<"lightbox start"<<std::endl;
     Mat image1,red_channel,diffimg,afterprc,light_loc;  /*创建图像容器*/         /*将项目中的before.png图像读入到image中*/
     vector<vector<Point> > contour;           /*定义二维浮点型变量存放找到的边界坐标*/
     bool bFlag = false;
@@ -130,9 +131,8 @@ int lightBox(Mat image)
     dilate(diffimg,diffimg , kernel_dilate);                                 /*先腐蚀后膨胀,开运算*/
     dilate(diffimg, diffimg, kernel_dilate);
     erode(diffimg, afterprc, kernel_erode);                                  /*先膨胀后腐蚀,闭运算*/
-    //imshow("开闭运算后", afterprc);                                            /*输出图像*/
+    //imshow("开闭运算后", afterprc);                              /*输出图像*/
     findContours(afterprc, contour, RETR_CCOMP , CHAIN_APPROX_SIMPLE);       //在二值图像中寻找轮廓
-
 	for (int i=0; i<contour.size(); i++)
 	{
                 if (contour[i].size()> 10)                 //判断当前轮廓是否大于10个像素点
@@ -166,12 +166,8 @@ int lightBox(Mat image)
     {
        // drawBox(vEllipse[nI], light_loc);
        drawBox(vRlt[nI], image);
-    }   
-    cvNamedWindow( "圈出灯条位置", 0 ); 
-    resizeWindow("圈出灯条位置", 800, 600);
-    imshow("圈出灯条位置", image);
-    waitKey(10);
-    //imwrite("after.png",light_loc);
-                                                                
+    } 
+    imshow("圈出位置", image);
+    waitKey(10);                                                        
     return 1;
 }
