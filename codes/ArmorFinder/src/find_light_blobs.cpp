@@ -87,9 +87,9 @@ bool findLightBolbsV2(Mat &input_img)
     if (src_bin_dim.empty()) return false;
     imagePreProcess(src_bin_dim); 
 
-    imshow("ee",src_bin_light);
-    imshow("e",src_bin_dim);
-    waitKey(0);
+    // imshow("ee",src_bin_light);
+    // imshow("e",src_bin_dim);
+    // waitKey(0);
 
 // 使用两个不同的二值化阈值同时进行灯条提取，减少环境光照对二值化这个操作的影响。
 // 同时剔除重复的灯条，剔除冗余计算，即对两次找出来的灯条取交集。
@@ -170,5 +170,5 @@ void showLightBlobs(const cv::Mat &input_image,string windows_name,const LightBl
                 }
             }
             imshow(windows_name, image2show);
-            waitKey(0);
+            waitKey(10);
     }
