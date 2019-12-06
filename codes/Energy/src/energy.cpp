@@ -185,3 +185,37 @@ int Energy::findArmors(const cv::Mat &src) {
 
     return static_cast<int>(armors.size());
 }
+//----------------------------------------------------------------------------------------------------------------------
+// 此函数用于显示图像中所有装甲板
+// ---------------------------------------------------------------------------------------------------------------------
+void Energy::showArmors(std::string windows_name, const cv::Mat &src) {
+    if (src.empty())return;
+    static Mat image2show;
+
+    if (src.type() == CV_8UC1) // 黑白图像
+    {
+        cvtColor(src, image2show, COLOR_GRAY2RGB);
+
+    } else if (src.type() == CV_8UC3) //RGB 彩色
+    {
+        image2show = src.clone();
+    }
+    for (const auto &armor : armors) {
+        Point2f vertices[4];      //定义矩形的4个顶点
+        armor.points(vertices);   //计算矩形的4个顶点
+        for (int i = 0; i < 4; i++)
+            line(image2show, vertices[i], vertices[(i + 1) % 4], Scalar(0, 0, 255), 2);
+    }
+     imshow(windows_name, image2show);
+}
+int main(){
+    Mat test;
+    Energy energy;
+    test =imread("./test.png");
+    energy.initEnergyPartParam();
+    energy.initImage(test);
+    energy.findArmors(test);
+    energy.showArmors("res",test);
+    return 0;
+
+}
