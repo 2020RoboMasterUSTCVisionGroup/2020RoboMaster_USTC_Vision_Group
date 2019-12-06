@@ -163,6 +163,7 @@ bool findLightBolbsCSDN(Mat &image){
     waitKey(10); 
 
 }
+
 /**
 *@author：王妍璐 江培玲
 *@name：main()
