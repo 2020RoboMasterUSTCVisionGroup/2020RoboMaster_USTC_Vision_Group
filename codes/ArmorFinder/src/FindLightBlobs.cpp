@@ -1,104 +1,4 @@
-//
-// Created by xinyang on 19-7-10.
-//
-#include <opencv2/highgui.hpp>
-#include<string.h>
-#include "armor_finder.h"
-#include <Eigen/Core>
-    // 判断两个灯条的角度差
-    static bool angelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
-        float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
-                        light_blob_i.rect.angle - 90;
-        float angle_j = light_blob_j.rect.size.width > light_blob_j.rect.size.height ? light_blob_j.rect.angle :
-                        light_blob_j.rect.angle - 90;
-        return abs(angle_i - angle_j) < 20;
-    }
-    // 判断两个灯条的高度差
-    static bool heightJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
-        cv::Point2f centers = light_blob_i.rect.center - light_blob_j.rect.center;
-        return abs(centers.y) < 30;
-    }
-    // 判断两个灯条的间距
-    static bool lengthJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
-        double side_length;
-        cv::Point2f centers = light_blob_i.rect.center - light_blob_j.rect.center;
-        side_length = sqrt(centers.ddot(centers));
-        return (side_length / light_blob_i.length < 10 && side_length / light_blob_i.length > 0.5);
-    }
-    // 判断两个灯条的长度比
-    static bool lengthRatioJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
-        return (light_blob_i.length / light_blob_j.length < 2.5
-                && light_blob_i.length / light_blob_j.length > 0.4);
-    }
-
-    /* 判断两个灯条的错位度，不知道英文是什么！！！ */
-    static bool CuoWeiDuJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
-        float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
-                        light_blob_i.rect.angle - 90;
-        float angle_j = light_blob_j.rect.size.width > light_blob_j.rect.size.height ? light_blob_j.rect.angle :
-                        light_blob_j.rect.angle - 90;
-        float angle = (angle_i + angle_j) / 2.0 / 180.0 * 3.14159265459;
-        if (abs(angle_i - angle_j) > 90) {
-            angle += 3.14159265459 / 2;
-        }
-        Eigen::Vector2f orientation(cos(angle), sin(angle));
-        Eigen::Vector2f p2p(light_blob_j.rect.center.x - light_blob_i.rect.center.x,
-                    light_blob_j.rect.center.y - light_blob_i.rect.center.y);
-        return abs(orientation.dot(p2p)) < 25;
-    }
-    // 判断装甲板方向
-    static bool boxAngleJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
-        float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
-                        light_blob_i.rect.angle - 90;
-        float angle_j = light_blob_j.rect.size.width > light_blob_j.rect.size.height ? light_blob_j.rect.angle :
-                        light_blob_j.rect.angle - 90;
-        float angle = (angle_i + angle_j) / 2.0;
-        if (abs(angle_i - angle_j) > 90) {
-            angle += 90.0;
-        }
-        return (-120.0 < angle && angle < -60.0) || (60.0 < angle && angle < 120.0);
-    }
-    static bool isCoupleLight(const LightBlob &light_blob_i, const LightBlob &light_blob_j, uint8_t enemy_color) {
-    return light_blob_i.blob_color == enemy_color &&
-           light_blob_j.blob_color == enemy_color &&
-           lengthRatioJudge(light_blob_i, light_blob_j) &&
-           lengthJudge(light_blob_i, light_blob_j) &&
-           //           heightJudge(light_blob_i, light_blob_j) &&
-           angelJudge(light_blob_i, light_blob_j) &&
-           boxAngleJudge(light_blob_i, light_blob_j) &&
-           CuoWeiDuJudge(light_blob_i, light_blob_j);
-
-    }
- bool matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes){
-        armor_boxes.clear();
-        for (int i = 0; i < light_blobs.size() - 1; ++i) {
-            for (int j = i + 1; j < light_blobs.size(); ++j) {
-                if (!isCoupleLight(light_blobs.at(i), light_blobs.at(j), BLOB_RED)) {
-                    continue;
-                }
-                cv::Rect2d rect_left = light_blobs.at(static_cast<unsigned long>(i)).rect.boundingRect();
-                cv::Rect2d rect_right = light_blobs.at(static_cast<unsigned long>(j)).rect.boundingRect();
-                double min_x, min_y, max_x, max_y;
-                min_x = fmin(rect_left.x, rect_right.x) - 4;
-                max_x = fmax(rect_left.x + rect_left.width, rect_right.x + rect_right.width) + 4;
-                min_y = fmin(rect_left.y, rect_right.y) - 0.5 * (rect_left.height + rect_right.height) / 2.0;
-                max_y = fmax(rect_left.y + rect_left.height, rect_right.y + rect_right.height) +
-                        0.5 * (rect_left.height + rect_right.height) / 2.0;
-                if (min_x < 0 || max_x > src.cols || min_y < 0 || max_y > src.rows) {
-                    continue;
-                }
-                if ((max_y + min_y) / 2 < 120) continue;
-                if ((max_x - min_x) / (max_y - min_y) < 0.8) continue;
-                LightBlobs pair_blobs = {light_blobs.at(i), light_blobs.at(j)};
-                armor_boxes.emplace_back(
-                        cv::Rect2d(min_x, min_y, max_x - min_x, max_y - min_y),
-                        pair_blobs,
-                        BLOB_RED
-                );
-            }
-        }
-    return !armor_boxes.empty();
-    }
+#include "ArmorFinder.h"
 // 旋转矩形的长宽比
 static double lw_rate(const cv::RotatedRect &rect) {
     return rect.size.height > rect.size.width ?
@@ -157,42 +57,8 @@ static void imagePreProcess(cv::Mat &src) {
     static cv::Mat kernel_erode2 = getStructuringElement(cv::MORPH_RECT, cv::Size(3, 5));
     erode(src, src, kernel_erode2);
 }
- void drawLightBlobs(cv::Mat &src, const LightBlobs &blobs){
-        for (const auto &blob:blobs) {
-            Scalar color(0,255,0);
-            if (blob.blob_color == BLOB_RED)
-                color = Scalar(0, 0, 255);
-            else if (blob.blob_color == BLOB_BLUE)
-                color = Scalar(255, 0, 0);
-            cv::Point2f vertices[4];
-            blob.rect.points(vertices);
-            for (int j = 0; j < 4; j++) {
-                cv::line(src, vertices[j], vertices[(j + 1) % 4], color, 2);
-            }
-        }
-    }
-    void showArmorBoxes(std::string windows_name, const cv::Mat &src, const ArmorBoxes &armor_boxes) {
-        static Mat image2show;
-        if (src.type() == CV_8UC1) {// 黑白图像
-            cvtColor(src, image2show, COLOR_GRAY2RGB);
-        } else if (src.type() == CV_8UC3) { //RGB 彩色
-            image2show = src.clone();
-        }
-
-        for (auto &box:armor_boxes) {
-            if(box.box_color == BLOB_BLUE) {
-                rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
-                drawLightBlobs(image2show, box.light_blobs);
-            }else if(box.box_color == BLOB_RED){
-                rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
-                drawLightBlobs(image2show, box.light_blobs);
-            }
-        }
-        imshow(windows_name, image2show);
-    }
 // 在给定图像上寻找所有可能的灯条
-//int main ()
-bool findLightBolbsV2(Mat &input_img)
+bool findLightBolbsSJTU(Mat &input_img)
 {
     LightBlobs light_blobs;
     cv::Mat color_channel;
@@ -298,3 +164,86 @@ void showLightBlobs(const cv::Mat &input_image,string windows_name,const LightBl
             imshow(windows_name, image2show);
             waitKey(10);
     }
+
+bool findLightBolbsCSDN(Mat &image){
+    LightBlobs light_blobs;
+    Mat image1,red_channel,diffimg,afterprc,light_loc;  /*创建图像容器*/         /*将项目中的before.png图像读入到image中*/
+    vector<vector<Point> > contour;           /*定义二维浮点型变量存放找到的边界坐标*/
+    bool bFlag = false;
+    RotatedRect s;                            /*定义旋转矩形*/
+    // vector<RotatedRect> vEllipse;             /*定以旋转矩形的向量，用于存储发现的目标区域*/
+    // vector<RotatedRect> vRlt;
+    //imshow("原图",image);                   /*显示处理前的图像*/
+    image1 = image;
+    int val;
+    for (int i = 0; i<image1.rows; i++)       /*每个像素每个通道的值减40*/
+    {
+        Vec3b* p1 = image.ptr<Vec3b>(i);
+        Vec3b* p2 = image1.ptr<Vec3b>(i);
+        for (int j = 0; j <image.cols; j++)
+        {
+            for (int k = 0; k < 3; k++)
+            {
+                val = (int)(1 * p1[j][k] -40); 
+                if (val < 0)
+                val = 0; 
+                if (val > 255) 
+                val = 255;
+                p2[j][k] = val;  
+            }
+        }
+    }
+    //imshow("亮度调整后",image1);   
+    vector<Mat> channels;                        /*利用vector对象拆分*/
+    split(image1, channels);                     /*调用通道拆分函数*/
+    { 
+        red_channel = channels[2];               /*将红色提出来，红色是第三个通道*/   
+    } 
+    //imshow("提取红色通道后",red_channel);             
+    threshold(red_channel,diffimg,20, 255, CV_THRESH_BINARY);               /*调用二值化函数得到二值图*/
+    //imshow("二值化后",diffimg);  
+    static Mat kernel_erode = getStructuringElement(MORPH_RECT, Size(7, 9));
+    static Mat kernel_dilate = getStructuringElement(MORPH_RECT, Size(5, 7));/*返回指定形状和尺寸的结构元素*/
+    erode(diffimg, diffimg, kernel_erode);                                   
+    dilate(diffimg,diffimg , kernel_dilate);                                 /*先腐蚀后膨胀,开运算*/
+    dilate(diffimg, diffimg, kernel_dilate);
+    erode(diffimg, afterprc, kernel_erode);                                  /*先膨胀后腐蚀,闭运算*/
+    //imshow("开闭运算后", afterprc);                              /*输出图像*/
+    findContours(afterprc, contour, RETR_CCOMP , CHAIN_APPROX_SIMPLE);       //在二值图像中寻找轮廓
+	for (int i=0; i<contour.size(); i++)
+	{
+                if (contour[i].size()> 10)                 //判断当前轮廓是否大于10个像素点
+                {
+                    bFlag = true;                          //如果大于10个，则检测到目标区域
+                                                           //拟合目标区域成为椭圆，返回一个旋转矩形（中心、角度、尺寸）
+                    s = fitEllipse(contour[i]);  
+                    for (int nI = 0; nI < 5; nI++)
+                    {
+                        for (int nJ = 0; nJ < 5; nJ++)     //遍历以旋转矩形中心点为中心的5*5的像素块
+                        {
+                            if (s.center.y - 2 + nJ > 0 && s.center.y - 2 + nJ < 480 && s.center.x - 2 + nI > 0 && s.center.x - 2 + nI <  640)  //判断该像素是否在有效的位置
+                            {   
+                                Vec3b v3b = image.at<Vec3b>((int)(s.center.y - 2 + nJ), (int)(s.center.x - 2 + nI)); //获取遍历点点像素值
+                                                          //判断中心点是否接近白色
+                                if (v3b[0] < 200 || v3b[1] < 200 || v3b[2] < 200)
+                                    bFlag = false;        //如果中心不是白色，则不是目标区域
+                            }
+                        }
+                    }
+	 if (bFlag)
+                    {
+                       light_blobs.emplace_back(
+                                s, 
+                                areaRatio(contour[i], s),
+                                get_blob_color(image, s)
+                            );                 //将发现的目标保存
+                    }
+                }
+
+            }
+    ArmorBoxes boxes;
+    matchArmorBoxes(image,light_blobs,boxes);
+    showArmorBoxes("res",image,boxes);
+    return true;
+
+}

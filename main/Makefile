@@ -41,11 +41,10 @@ OBJS :=$(patsubst %.cpp,%.o,$(SOURCE_WITHOUT_DIR))
 all:$(TARGET)
 
 
-$(TARGET):$(OBJS) 
+$(TARGET):$(OBJS)
 	$(CC) $(CFLAGS) $@ $^ main.cpp $(addprefix -L,$(LIBSPATH)) $(addprefix -l,$(LIBS)) $(PKG) $(addprefix -I,$(INC))
 
 %.o:%.cpp
-#$(CC) -c $(SOURCE) $(CFLAGS) $@  $(addprefix -I,$(INC)) $(PKG)
 	$(CC) -c $^ $(CFLAGS) $@  $(addprefix -I,$(INC)) $(PKG)
 
 #---------------------------伪指令---------------------------------------------
