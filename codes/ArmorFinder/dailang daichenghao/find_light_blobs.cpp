@@ -67,12 +67,14 @@ static void imagePreProcess(cv::Mat &src) {
 }
 
 // 在给定图像上寻找所有可能的灯条
-int main ()
+//int main ()
+bool findLightBolbsV2(Mat &input_img)
 {
+    LightBlobs light_blobs;
     cv::Mat color_channel;
     cv::Mat src_bin_light, src_bin_dim;
     std::vector<cv::Mat> channels;       // 通道拆分
-     Mat input_img = imread("aa.png");
+     //Mat input_img = imread("aa.png");
     cv::split(input_img, channels);               /************************/
      color_channel = channels[2];        /************************/
     int light_threshold;
@@ -131,7 +133,6 @@ int main ()
     }
     sort(light_to_remove.begin(), light_to_remove.end(), [](int a, int b) { return a > b; });
     sort(dim_to_remove.begin(), dim_to_remove.end(), [](int a, int b) { return a > b; });
-     LightBlobs light_blobs;
     for (auto x : light_to_remove) {
         light_blobs_light.erase(light_blobs_light.begin() + x);
     }
