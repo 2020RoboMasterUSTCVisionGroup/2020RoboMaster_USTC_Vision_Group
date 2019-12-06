@@ -13,6 +13,7 @@ using namespace std;
 
 #define T_ANGLE_THRE 10
 #define T_SIZE_THRE 5
+bool findLightBolbsV2(Mat &input_img);
 /**
 *@author：王妍璐 江培玲
 *@name：drawBox()
@@ -78,16 +79,8 @@ vector<RotatedRect> armorDetect(vector<RotatedRect> vEllipse)
     }
     return vRlt;
 }
-/**
-*@author：王妍璐 江培玲
-*@name：main()
-*@return:void
-*@function：
-*@para：box: img:
-*其他要注意的地方
-**/  
-int lightBox(Mat image)
-{  
+bool findLightBolbsCSDN(Mat &image){
+        std::cout<<"lightbox start"<<std::endl;
     Mat image1,red_channel,diffimg,afterprc,light_loc;  /*创建图像容器*/         /*将项目中的before.png图像读入到image中*/
     vector<vector<Point> > contour;           /*定义二维浮点型变量存放找到的边界坐标*/
     bool bFlag = false;
@@ -167,6 +160,26 @@ int lightBox(Mat image)
        drawBox(vRlt[nI], image);
     } 
     imshow("圈出位置", image);
-    waitKey(10);                                                        
+    waitKey(10); 
+
+}
+/**
+*@author：王妍璐 江培玲
+*@name：main()
+*@return:void
+*@function：
+*@para：box: img:
+*其他要注意的地方
+**/  
+int lightBox(Mat image)
+{  
+    bool key = false;
+    if(key){
+        findLightBolbsCSDN(image);
+    }else{
+        findLightBolbsV2(image);
+    }
+    
+
     return 1;
 }
