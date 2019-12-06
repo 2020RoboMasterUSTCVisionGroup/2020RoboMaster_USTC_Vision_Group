@@ -88,7 +88,6 @@ vector<RotatedRect> armorDetect(vector<RotatedRect> vEllipse)
 **/  
 int lightBox(Mat image)
 {  
-    std::cout<<"lightbox start"<<std::endl;
     Mat image1,red_channel,diffimg,afterprc,light_loc;  /*创建图像容器*/         /*将项目中的before.png图像读入到image中*/
     vector<vector<Point> > contour;           /*定义二维浮点型变量存放找到的边界坐标*/
     bool bFlag = false;

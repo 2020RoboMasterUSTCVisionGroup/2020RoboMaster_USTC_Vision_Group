@@ -13,7 +13,7 @@ int main(int argc, char *argv[], char **env)
     
     while(1)
     {
-        switch(g_source_image)
+        switch(g_source_type)
         {
         case SOURCE_CAMERA:
         {
@@ -25,8 +25,6 @@ int main(int argc, char *argv[], char **env)
             }
             else
             {
-            //cout << "imagetype:" << setbase(16) << stInfo.enPixelType << endl;
- 
 			    int width = stInfo.nWidth;
 			    int height = stInfo.nHeight;
  
@@ -45,11 +43,6 @@ int main(int argc, char *argv[], char **env)
             break;
         }
         }
-        /*
-        cvNamedWindow( "摄像头窗口", 0); 
-        resizeWindow("摄像头窗口", 800, 600);
-        imshow("摄像头窗口", g_srcImage);
-        waitKey(10);*/
         if( lightBox(g_srcImage) == 1 );
         
         
@@ -61,8 +54,8 @@ int main(int argc, char *argv[], char **env)
 void systemInit()
 {
     cout << "Input 1 for camera, 0 for video" << endl;
-    cin >> g_source_image;
-    if(g_source_image == 1)
+    cin >> g_source_type;
+    if(g_source_type == 1)
     {
         if( cameraInit() == CAMERA_INIT_SUCCESS)
         {

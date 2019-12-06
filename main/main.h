@@ -23,7 +23,7 @@ int lightBox(Mat image);
 void systemInit();
 //------------------------全局变量定义---------------------
 //变量定义阶段
-int g_source_image;
+int g_source_type;
 VideoCapture g_capture;
 Mat g_srcImage;     //原图像每一帧
 //extern int nRet;    //相机状态定义
