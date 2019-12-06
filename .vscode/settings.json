@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.cu": "cuda",
         "array": "cpp",
         "atomic": "cpp",
         "*.tcc": "cpp",
@@ -52,6 +53,7 @@
         "typeinfo": "cpp",
         "cinttypes": "cpp",
         "core": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "thread": "cpp"
     }
 }

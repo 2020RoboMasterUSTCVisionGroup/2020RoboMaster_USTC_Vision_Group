@@ -5,7 +5,8 @@
 #include<string.h>
 #include "armor_finder.h"
 
-
+vector<RotatedRect> armorDetect(vector<RotatedRect> vEllipse);
+void drawBox(RotatedRect &box,Mat &img);
 
 // 旋转矩形的长宽比
 static double lw_rate(const cv::RotatedRect &rect) {
@@ -148,8 +149,23 @@ bool findLightBolbsV2(Mat &input_img)
     }
 
     showLightBlobs(input_img,"sb",light_blobs); 
+    vector<RotatedRect> vEllipse;
+    for(auto &temp:light_blobs){
+        vEllipse.push_back(temp.rect);
+    }
+    vector<RotatedRect> vRlt;
+    vRlt = armorDetect(vEllipse); 
+   // cvtColor(afterprc,light_loc,CV_GRAY2BGR);
+    for (unsigned int nI = 0; nI < vRlt.size(); nI++) //在当前图像中标出灯条的位置
+    {
+       // drawBox(vEllipse[nI], light_loc);
+       drawBox(vRlt[nI], input_img);
+    } 
+    imshow("圈出位置", input_img);
+    waitKey(10); 
+    
 
-    return  0;
+    return  true;
     
 }
 void showLightBlobs(const cv::Mat &input_image,string windows_name,const LightBlobs &light_blobs) {

@@ -173,7 +173,7 @@ bool findLightBolbsCSDN(Mat &image){
 **/  
 int lightBox(Mat image)
 {  
-    bool key = false;
+    bool key = true;
     if(key){
         findLightBolbsCSDN(image);
     }else{
