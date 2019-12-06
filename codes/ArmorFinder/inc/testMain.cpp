@@ -2,9 +2,9 @@
 int main(){
     AmorFinder finder;
     ArmorBoxes boxes;
-    Mat src = imread("./test.png");
-    finder.setImage("./test.png");
-    finder.preProcessV2(20);
+    Mat src = imread("./test2.jpg");
+    finder.setImage("./test2.jpg");
+    finder.preProcessV2(40);
     LightBlobs blobs = finder.findLightBlobV2();
     finder.matchArmorBoxes(src,blobs,boxes);
     finder.showArmorBoxes("res",src,boxes);
