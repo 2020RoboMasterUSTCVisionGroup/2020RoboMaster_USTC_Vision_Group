@@ -19,7 +19,7 @@ using namespace std;
 **/  
 int lightBox(Mat image)
 {  
-    bool key = true;
+    bool key = false;
     if(key){
         findLightBolbsCSDN(image);
     }else{

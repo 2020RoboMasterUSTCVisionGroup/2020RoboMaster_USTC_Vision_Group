@@ -1,4 +1,9 @@
 #include "ArmorFinder.h"
+    /**
+     * @author:任天锋
+     * @desc:装甲板识别
+     * @qq:1010645265
+     */
     // 判断两个灯条的角度差
     static bool angelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :

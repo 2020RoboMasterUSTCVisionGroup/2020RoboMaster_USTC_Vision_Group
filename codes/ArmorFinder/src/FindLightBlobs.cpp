@@ -174,7 +174,7 @@ bool findLightBolbsCSDN(Mat &image){
     // vector<RotatedRect> vEllipse;             /*定以旋转矩形的向量，用于存储发现的目标区域*/
     // vector<RotatedRect> vRlt;
     //imshow("原图",image);                   /*显示处理前的图像*/
-    image1 = image;
+    image1 = image.clone();
     int val;
     for (int i = 0; i<image1.rows; i++)       /*每个像素每个通道的值减40*/
     {
