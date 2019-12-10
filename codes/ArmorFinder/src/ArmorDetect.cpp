@@ -1,7 +1,7 @@
 #include "ArmorFinder.h"
     /**
      * @author:任天锋
-     * @desc:装甲板识别,整合自SJTU
+     * @desc:装甲板识别,整理自SJTU
      * @qq:1010645265
      */
     // 判断两个灯条的角度差
