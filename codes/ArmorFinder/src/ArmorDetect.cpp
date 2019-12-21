@@ -1,4 +1,9 @@
 #include "ArmorFinder.h"
+    /**
+     * @author:任天锋
+     * @desc:装甲板识别,整理自SJTU
+     * @qq:1010645265
+     */
     // 判断两个灯条的角度差
     static bool angelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
@@ -52,6 +57,7 @@
         }
         return (-120.0 < angle && angle < -60.0) || (60.0 < angle && angle < 120.0);
     }
+    //判断是否为一对灯条
     static bool isCoupleLight(const LightBlob &light_blob_i, const LightBlob &light_blob_j, uint8_t enemy_color) {
     return light_blob_i.blob_color == enemy_color &&
            light_blob_j.blob_color == enemy_color &&
@@ -63,6 +69,11 @@
            CuoWeiDuJudge(light_blob_i, light_blob_j);
 
     }
+    /**
+     * @func:匹配装甲板,外部调用只需调用该函数即可
+     * @para:src:一帧图像,light_bolbs:灯条存储vector，armor_boxes:装甲板存储vector，匹配到的装甲板存储到此处
+     * 
+     **/
  bool matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes){
         armor_boxes.clear();
         for (int i = 0; i < light_blobs.size() - 1; ++i) {
@@ -93,6 +104,7 @@
         }
     return !armor_boxes.empty();
     }
+    //在src上将灯条框出
      void drawLightBlobs(cv::Mat &src, const LightBlobs &blobs){
         for (const auto &blob:blobs) {
             Scalar color(0,255,0);
@@ -107,6 +119,7 @@
             }
         }
     }
+    //在src上将装甲板框出
     void showArmorBoxes(std::string windows_name, const cv::Mat &src, const ArmorBoxes &armor_boxes) {
         static Mat image2show;
         if (src.type() == CV_8UC1) {// 黑白图像
