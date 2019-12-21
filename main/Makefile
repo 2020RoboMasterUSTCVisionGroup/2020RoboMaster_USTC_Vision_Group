@@ -56,7 +56,7 @@ clean:
 
 #伪指令add-library
 #将动态库安装到系统路径中。
-.PHONY:add-library
+.PHONY:add-libraries
 add-libraries:
 	sudo cp ../codes/Camera/lib/* /usr/local/lib
 
