@@ -10,6 +10,7 @@
 //包含自制头文件
 #include "CameraInit.h"
 #include "Preprocess.h"
+#include "energy.h"
 
 using namespace cv;
 using namespace std;
@@ -27,7 +28,8 @@ void systemInit();
 int g_source_type;
 VideoCapture g_capture;
 Mat g_srcImage;     //原图像每一帧
-Preprocess g_preprocess;
+Preprocess g_preprocess;    //初始化对象
+
 //extern int nRet;    //相机状态定义
 //extern void* handle;    //
 //一帧数据大小
