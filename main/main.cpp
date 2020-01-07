@@ -43,6 +43,7 @@ int main(int argc, char *argv[], char **env)
             break;
         }
         }
+        g_preprocess.run(g_srcImage);
         if( lightBox(g_srcImage) == 1 );
         
         

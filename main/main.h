@@ -8,7 +8,8 @@
 #include "MvCameraControl.h"
 
 //包含自制头文件
-#include "cameraInit.h"
+#include "CameraInit.h"
+#include "Preprocess.h"
 
 using namespace cv;
 using namespace std;
@@ -26,12 +27,16 @@ void systemInit();
 int g_source_type;
 VideoCapture g_capture;
 Mat g_srcImage;     //原图像每一帧
+Preprocess g_preprocess;
 //extern int nRet;    //相机状态定义
 //extern void* handle;    //
 //一帧数据大小
 int nBuffSize = MAX_IMAGE_DATA_SIZE;
 unsigned int nTestFrameSize = 0;
+//相机位置
 unsigned char* pFrameBuf = NULL;
+
+//相机参数
 MV_FRAME_OUT_INFO_EX stInfo;
 
 #endif
