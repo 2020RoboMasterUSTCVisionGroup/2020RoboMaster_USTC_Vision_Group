@@ -6,9 +6,9 @@
 
 #include "Preprocess.h"
 
-void Preprocess::run(Mat &src)
+void Preprocess::run(cv::Mat &src)
 {
-    clearWhiteLight(Mat &src);
+    clearWhiteLight(src);
 }
 
 void Preprocess::clearWhiteLight(Mat &src)

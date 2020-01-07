@@ -17,7 +17,6 @@ void Energy::run(cv::Mat &src) {
     clearAll();
     waitKey(0);
     if (findArmors(src) < 1) 
-        return;
     showArmors("armor", src);
     
 }

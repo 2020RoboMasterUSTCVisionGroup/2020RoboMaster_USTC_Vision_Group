@@ -3,7 +3,7 @@
 using namespace cv;
 using namespace std;
 
-int energy(Mat &src)
+int energy(cv::Mat &src)
 {   
     uint8_t color=1;
     Energy energy(color);

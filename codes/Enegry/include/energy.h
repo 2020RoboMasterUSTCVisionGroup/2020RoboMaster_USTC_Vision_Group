@@ -119,6 +119,6 @@ private:
     void ArmorStruct(cv::Mat &src);//腐蚀和膨胀
  
 };
-
+int energy(cv::Mat &src);
 #endif //ENERGY_H
 

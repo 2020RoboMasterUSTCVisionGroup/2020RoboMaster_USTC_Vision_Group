@@ -27,8 +27,6 @@ public:
     LightBlob() = default;
 };
 typedef std::vector<LightBlob> LightBlobs;
-<<<<<<< HEAD:codes/ArmorFinder/include/armor_finder.h
-=======
 class ArmorBox{
 public:
     cv::Rect2d rect;
@@ -45,7 +43,6 @@ public:
     bool operator<(const ArmorBox &box) const; // 装甲板优先级比较
 };
 typedef std::vector<ArmorBox> ArmorBoxes;
->>>>>>> 8ecdd4bd4d90e9822eb6ce5d1265afd14468c4d7:codes/ArmorFinder/include/ArmorFinder.h
 #define BLOB_RED 1
 #define BLOB_BLUE 0
 
