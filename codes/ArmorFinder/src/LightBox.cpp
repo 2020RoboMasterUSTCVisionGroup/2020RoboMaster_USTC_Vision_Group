@@ -5,12 +5,11 @@
 *   功能：  对图片进行通道拆分和腐蚀膨胀以提取出灯条
 ------------------------------------------------------*/
 //-----------------------------头文件引用和命名空间-------------------
-#include <opencv2/highgui.hpp>     
-#include <opencv2/opencv.hpp>
-#include <iostream>
+#include "ArmorFinder.h"
 using namespace cv;                           /*之后程序中使用cv和std命名空间的资源时不用加前缀*/
 using namespace std;
 
+<<<<<<< HEAD
 #define T_ANGLE_THRE 10
 #define T_SIZE_THRE 5
 bool findLightBolbsV2(Mat &input_img);
@@ -163,6 +162,8 @@ bool findLightBolbsCSDN(Mat &image){
     waitKey(10); 
 
 }
+=======
+>>>>>>> 8ecdd4bd4d90e9822eb6ce5d1265afd14468c4d7
 /**
 *@author：王妍璐 江培玲
 *@name：main()
@@ -177,7 +178,7 @@ int lightBox(Mat image)
     if(key){
         findLightBolbsCSDN(image);
     }else{
-        findLightBolbsV2(image);
+        findLightBolbsSJTU(image);
     }
     
 
