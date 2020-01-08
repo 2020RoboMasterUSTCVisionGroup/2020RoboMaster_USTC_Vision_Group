@@ -12,9 +12,9 @@ using std::vector;
 void Energy::showArmors(std::string windows_name, const cv::Mat &src) {
     if (src.empty())return;
     
-    static Mat image2show;
-    static Mat image2show2;//最外面的轮廓
-    static Mat image2show3;//整个能量机关最外面的轮廓
+    static Mat image2show; //用于显示的彩色图像
+    static Mat image2show2;//风扇叶的外部轮廓
+    static Mat image2show3;//整个能量机关最外部轮廓
 
     static Mat rot_image[5];
     static Mat result[5]; 
@@ -33,11 +33,11 @@ void Energy::showArmors(std::string windows_name, const cv::Mat &src) {
     }
     for (const auto &armor : armors) {
         Point2f vertices[4];      //定义矩形的4个顶点
-        armor.points(vertices);   //计算矩形的4个顶点
+        armor.points(vertices);   //将矩形的4个顶点放入armor
         for (int i = 0; i < 4; i++)
-            line(image2show, vertices[i], vertices[(i + 1) % 4], Scalar(0, 0, 255), 2);
+            line(image2show, vertices[i], vertices[(i + 1) % 4], Scalar(0, 0, 255), 2); //用线连接四个顶点成矩形
     }
-    imshow(windows_name, image2show);
+    imshow(windows_name, image2show);    //显示装甲板外的矩形
     waitKey(0);
 
     /*for (const auto &armor_external : armors_external) {
@@ -69,15 +69,15 @@ void Energy::showArmors(std::string windows_name, const cv::Mat &src) {
     waitKey(0);
     */
    //sunlin添加
-    Point2f vertices2[5][4];     //定义矩形的4个顶点
+    Point2f vertices2[5][4];     //定义5个风扇叶外部矩形的4个顶点
     Point2f vertices3[4];        //定义整个能量机关的外部四边形顶点
-    Point2f center[5];          //5个中心店坐标
-    Point2f MostLeftPoint;      //整个能量机关的最外面的点
+    Point2f center[5];           //5个装甲板外的矩形的中心点坐标
+    Point2f MostLeftPoint;       //定义整个能量机关的最外面的四个点
     Point2f MostRightPoint;
     Point2f MostUpPoint;
     Point2f MostDownPoint;
 
-    Mat rot_mat[5];             //五个旋转图像
+    Mat rot_mat[5];              //五个将旋转矩形转为竖直后的图像
     Size dst_sz(image2show2.size());    //图像尺寸
     for(int i = 0;i < 5;i++)
     {
@@ -87,38 +87,37 @@ void Energy::showArmors(std::string windows_name, const cv::Mat &src) {
     {
         for(int j = 0; j < 4;j++)      //四个角
         {
-            line(image2show2, vertices2[i][j], vertices2[i][(j + 1) % 4], Scalar(0, 0, 255), 2);    //划线
+            line(image2show2, vertices2[i][j], vertices2[i][(j + 1) % 4], Scalar(0, 0, 255), 2);    //划线框出五个风扇叶
         }
         
         center[i] = armors_external[i].center;//外接矩形中心点坐标
         rot_mat[i] = getRotationMatrix2D(center[i], armors_external[i].angle, 1.0);//求旋转矩阵
-	    warpAffine(image2show2, rot_image[i], rot_mat[i], dst_sz);//原图像旋转
-        
-        result[i] = rot_image[i](Rect(center[i].x - (armors_external[i].size.width / 2), center[i].y - (armors_external[i].size.height/2), armors_external[i].size.width, armors_external[i].size.height));//提取ROI
-        imshow("出来吧", result[i]);
+	    warpAffine(image2show2, rot_image[i], rot_mat[i], dst_sz);//原图像旋转得到旋转后图像
+        result[i] = rot_image[i](Rect(center[i].x - (armors_external[i].size.width / 2), center[i].y - (armors_external[i].size.height/2), armors_external[i].size.width, armors_external[i].size.height));//提取ROI(将五个风扇叶提出来）
+        imshow("出来吧", result[i]);     //每按一次键盘依次显示五个风扇叶的局部图像
         waitKey(0);
 
     }
 
-        MostLeftPoint=vertices2[0][0];
+        MostLeftPoint=vertices2[0][0];                  //初始化最外围点
         MostRightPoint=vertices2[0][0];
         MostUpPoint=vertices2[0][0];
         MostDownPoint=vertices2[0][0];
-for (int i=0;i<5;i++)                                   //找出能量机关的最外四个点
+for (int i=0;i<5;i++)                                   //冒泡比较找出能量机关的最外四个点
 {
     for (int j=0;j<4;j++)
     {
-    if (vertices2[i][j].x<=MostLeftPoint.x)
+        if (vertices2[i][j].x<=MostLeftPoint.x)
         MostLeftPoint=vertices2[i][j];
-    if (vertices2[i][j].x>MostRightPoint.x)
+        if (vertices2[i][j].x>MostRightPoint.x)
         MostRightPoint=vertices2[i][j];
-    if (vertices2[i][j].y<=MostDownPoint.y)
+        if (vertices2[i][j].y<=MostDownPoint.y)
         MostDownPoint=vertices2[i][j];
-    if (vertices2[i][j].y>MostUpPoint.y)
+        if (vertices2[i][j].y>MostUpPoint.y)
         MostUpPoint=vertices2[i][j];
     }  
 }
-    vertices3[0].x=MostLeftPoint.x;
+    vertices3[0].x=MostLeftPoint.x;               //由最外围四个点得到要画的矩形框的四个顶点
     vertices3[0].y=MostDownPoint.y;
     vertices3[1].x=MostRightPoint.x; 
     vertices3[1].y= MostDownPoint.y; 
@@ -128,9 +127,9 @@ for (int i=0;i<5;i++)                                   //找出能量机关的�
     vertices3[3].y=MostUpPoint.y;  
     for (int i = 0; i < 4; i++)
     {
-            line(image2show3, vertices3[i], vertices3[(i + 1) % 4], Scalar(0, 0, 255), 2);
+            line(image2show3, vertices3[i], vertices3[(i + 1) % 4], Scalar(0, 0, 255), 2);//划线框出整个能量机关
     }
-    imshow("整个能量机关", image2show3);
+    imshow("整个能量机关", image2show3);      //显示整个能量机关外部的框
     waitKey(0); 
 
     /*imshow("rot_image", rot_image);

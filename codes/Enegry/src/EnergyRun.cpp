@@ -15,7 +15,6 @@ using namespace cv;
 // ---------------------------------------------------------------------------------------------------------------------
 void Energy::run(cv::Mat &src) {
     clearAll();
-    waitKey(0);
     if (findArmors(src) < 1) 
     showArmors("armor", src);
     

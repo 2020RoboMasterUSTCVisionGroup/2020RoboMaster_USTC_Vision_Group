@@ -12,9 +12,9 @@ using std::vector;
 //----------------------------------------------------------------------------------------------------------------------
 // 此函数用于寻找图像内所有的大风车装甲板模块
 // ---------------------------------------------------------------------------------------------------------------------
-int Energy::findArmors(const cv::Mat &src) {
-    if (src.empty()) {
-        cout << "empty!" << endl;
+int Energy::findArmors(const cv::Mat &src) {    
+    if (src.empty()) {  
+        cout << "empty!" << endl;               //如果没有读到图像输出empty提醒
         return 0;
     }
     static Mat src_bin;
@@ -26,11 +26,11 @@ int Energy::findArmors(const cv::Mat &src) {
     std::vector<vector<Point> > armor_contours_external;//用总轮廓减去外轮廓，只保留内轮廓，除去流动条的影响。
 
     ArmorStruct(src_bin);//图像膨胀，防止图像断开并更方便寻找
-    findContours(src_bin, armor_contours, CV_RETR_LIST, CV_CHAIN_APPROX_NONE);
+    findContours(src_bin, armor_contours, CV_RETR_LIST, CV_CHAIN_APPROX_NONE); //查找外部轮廓
     //imshow("armor struct装甲板", src_bin);
     //waitKey(0);
-    findContours(src_bin, armor_contours_external, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_NONE);
-    for (int i = 0; i < armor_contours_external.size(); i++)//去除外轮廓
+    findContours(src_bin, armor_contours_external, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_NONE);//添加部分，可以框出外部轮廓，用于截取ROI
+    for (int i = 0; i < armor_contours_external.size(); i++)   //去除外轮廓
     {
         unsigned long external_contour_size = armor_contours_external[i].size();
         for (int j = 0; j < armor_contours.size(); j++) {
@@ -43,26 +43,26 @@ int Energy::findArmors(const cv::Mat &src) {
         }
     }
 
-    for (auto &armor_contour_external : armor_contours_external) {       //添加部分，可以框出外部轮廓，用于截取ROI
-     if (!isValidExtArmorContour(armor_contour_external)) {
+    for (auto &armor_contour_external : armor_contours_external) {        //利用条件筛选合适的外部轮廓
+     if (!isValidExtArmorContour(armor_contour_external)) {              
           continue;
        }
-        armors_external.emplace_back(cv::minAreaRect(armor_contour_external));
+        armors_external.emplace_back(cv::minAreaRect(armor_contour_external)); //将包含扇叶外部轮廓的最小旋转矩形放入armors_external
     }
    
 
 
-    for (auto &armor_contour : armor_contours) {
+    for (auto &armor_contour : armor_contours) {                        //利用条件筛选合适的装甲板轮廓
        if (!isValidArmorContour(armor_contour)) {
           continue;
        }
-        armors.emplace_back(cv::minAreaRect(armor_contour));
+        armors.emplace_back(cv::minAreaRect(armor_contour));    //将包含装甲板轮廓的最小旋转矩形放入armors
     }
 
    // if (show_info) {
 //        if (armors.size() < 1)cout << "no armors!" << endl;
    // }
 
-    return static_cast<int>(armors.size());
+    return static_cast<int>(armors.size());       //返回armors里的个数
 }
 

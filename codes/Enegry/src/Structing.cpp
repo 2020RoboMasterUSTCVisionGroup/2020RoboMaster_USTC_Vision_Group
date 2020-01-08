@@ -12,7 +12,7 @@ using std::vector;
 // 此函数对图像进行腐蚀与膨胀操作
 // ---------------------------------------------------------------------------------------------------------------------
 void Energy::ArmorStruct(cv::Mat &src) {
-    Mat element_dilate_1 = getStructuringElement(MORPH_RECT, Size(5, 5));
+    Mat element_dilate_1 = getStructuringElement(MORPH_RECT, Size(5, 5));     //腐蚀膨胀的参数设置
     Mat element_erode_1 = getStructuringElement(MORPH_RECT, Size(2, 2));
     Mat element_dilate_2 = getStructuringElement(MORPH_RECT, Size(3, 3));
     Mat element_erode_2 = getStructuringElement(MORPH_RECT, Size(2 , 2));

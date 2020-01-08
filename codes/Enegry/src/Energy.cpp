@@ -11,7 +11,7 @@ using std::vector;
 
 
 //----------------------------------------------------------------------------------------------------------------------
-// 此函数我不量机关构造函数，只要程序不重启就不会重新构造
+// 此函数为能量机关构啦啦啦数，只要程序不重启就不会重新构造
 // ---------------------------------------------------------------------------------------------------------------------
 const int SRC_WIDTH = 320;
 const int SRC_HEIGHT = 240;
@@ -21,8 +21,8 @@ Energy::Energy( uint8_t &color) : ally_color(color),
                                   src_red(SRC_HEIGHT, SRC_WIDTH, CV_8UC1) {
     //initEnergy();
     armors.clear();
-    energy_part_param_.RED_GRAY_THRESH = 180;//game
-    energy_part_param_.BLUE_GRAY_THRESH = 100;//game
+    energy_part_param_.RED_GRAY_THRESH = 180;//筛选能量机关装甲板的参数
+    energy_part_param_.BLUE_GRAY_THRESH = 100;
     energy_part_param_.SPLIT_GRAY_THRESH = 180;
     energy_part_param_.ARMOR_CONTOUR_AREA_MAX = 500;
     energy_part_param_.ARMOR_CONTOUR_AREA_MIN = 180;

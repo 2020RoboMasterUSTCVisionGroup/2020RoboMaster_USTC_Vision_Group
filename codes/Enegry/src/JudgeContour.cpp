@@ -38,7 +38,7 @@ bool Energy::isValidArmorContour(const vector<cv::Point> &armor_contour) {
         //cout<<"length width ratio fail."<<endl;
 //        cout << "HW: " << length_width_ratio << '\t' << cur_rect.center << endl;
         return false;
-        //长宽比不合适
+        //长宽比不合适返回false,目前用图片测试只用这一个条件限制
     }
     if (cur_contour_area / cur_size.area() < energy_part_param_.ARMOR_CONTOUR_AREA_RATIO_MIN) {
 //        cout << "area ratio: " << cur_contour_area / cur_size.area() << '\t' << cur_rect.center << endl;
@@ -47,10 +47,11 @@ bool Energy::isValidArmorContour(const vector<cv::Point> &armor_contour) {
     return true;
 }
 
-bool Energy::isValidExtArmorContour(const vector<cv::Point> &armor_contour_external) {
+bool Energy::isValidExtArmorContour(const vector<cv::Point> &armor_contour_external) {    //筛选风扇叶外部轮廓，留下面积大于3000的
     double cur_contour_area2 = contourArea(armor_contour_external);
     //cout<<cur_contour_area2<<endl;
     if (cur_contour_area2 > 3000) {
         return true;
     }
+        return false;
 }
