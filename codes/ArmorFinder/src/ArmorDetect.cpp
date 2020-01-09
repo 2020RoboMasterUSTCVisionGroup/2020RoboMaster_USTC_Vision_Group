@@ -76,11 +76,15 @@
      **/
  bool matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes){
         armor_boxes.clear();
-        for (int i = 0; i < light_blobs.size() - 1; ++i) {
-            for (int j = i + 1; j < light_blobs.size(); ++j) {
+        if(light_blobs.size()==0){
+            return false;
+        }
+        for (int i = 0; i < light_blobs.size() - 1; i++) {
+            for (int j = i + 1; j < light_blobs.size(); j++) {
                 if (!isCoupleLight(light_blobs.at(i), light_blobs.at(j), BLOB_RED)) {
                     continue;
                 }
+               
                 cv::Rect2d rect_left = light_blobs.at(static_cast<unsigned long>(i)).rect.boundingRect();
                 cv::Rect2d rect_right = light_blobs.at(static_cast<unsigned long>(j)).rect.boundingRect();
                 double min_x, min_y, max_x, max_y;
@@ -94,6 +98,7 @@
                 }
                 if ((max_y + min_y) / 2 < 120) continue;
                 if ((max_x - min_x) / (max_y - min_y) < 0.8) continue;
+                 cout<<"    pair_blobs start!"<<endl;
                 LightBlobs pair_blobs = {light_blobs.at(i), light_blobs.at(j)};
                 armor_boxes.emplace_back(
                         cv::Rect2d(min_x, min_y, max_x - min_x, max_y - min_y),
@@ -102,10 +107,13 @@
                 );
             }
         }
+
+
     return !armor_boxes.empty();
     }
     //在src上将灯条框出
      void drawLightBlobs(cv::Mat &src, const LightBlobs &blobs){
+
         for (const auto &blob:blobs) {
             Scalar color(0,255,0);
             if (blob.blob_color == BLOB_RED)

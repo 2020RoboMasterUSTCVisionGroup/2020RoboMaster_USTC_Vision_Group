@@ -1,13 +1,18 @@
-#include "log.h"
-#include<iostream>
+#include "../include/log.h"
 int main(){
-     TIMER_START(x);
+    INFO_START("s1 start",s1);
     for(int i=0;i<1000;i++){
         int j;
         j++;
     }
-    std::cout<<"finish!"<<std::endl;
-    TIMER_STOP(x);
-    TIME_COST_MS("test");
+    std::cout<<"1finish!"<<std::endl;
+    INFO_END("s1 end",s1);
+    INFO_START("s2",s2);
+        for(int i=0;i<100000;i++){
+        int j;
+        j++;
+    }
+    std::cout<<"2finish!"<<std::endl;
+   INFO_END("s2 end",s2);
     return 0;
 }

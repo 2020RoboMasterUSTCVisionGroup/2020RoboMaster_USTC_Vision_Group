@@ -16,7 +16,7 @@ int main(int argc, char *argv[], char **env)
         switch(g_source_type)
         {
         case SOURCE_CAMERA:
-        {
+        {   
             nRet = MV_CC_GetImageForBGR(handle, pFrameBuf, nBuffSize, &stInfo, 1000);
             if( nRet != 0 )
             {
@@ -24,7 +24,7 @@ int main(int argc, char *argv[], char **env)
 			    break;
             }
             else
-            {
+            {   
 			    int width = stInfo.nWidth;
 			    int height = stInfo.nHeight;
  
@@ -45,7 +45,7 @@ int main(int argc, char *argv[], char **env)
         }
         //g_preprocess.run(g_srcImage);
         if( lightBox(g_srcImage) == 1 );
-        energy(g_srcImage);
+        //energy(g_srcImage);
         
         
     }

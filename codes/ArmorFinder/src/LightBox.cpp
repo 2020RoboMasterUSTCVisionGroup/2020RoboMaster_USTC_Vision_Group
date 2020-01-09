@@ -19,11 +19,15 @@ using namespace std;
 **/  
 int lightBox(Mat image)
 {  
-    bool key = true;
+    bool key = false;
     if(key){
+        cout<<"findLightBolbsCSDN start"<<endl;
         findLightBolbsCSDN(image);
+        cout<<"findLightBolbsCSDN finish"<<endl;
     }else{
+        cout<<"findLightBolbsSJTU start"<<endl;
         findLightBolbsSJTU(image);
+        cout<<"findLightBolbsSJTU finish"<<endl;
     }
     
 

@@ -85,19 +85,27 @@ bool findLightBolbsSJTU(Mat &input_img)
     cv::split(input_img, channels);               /************************/
      color_channel = channels[2];        /************************/
     int light_threshold;
-     light_threshold = 200;            //设定亮图片阈值
+    light_threshold = 200;            //设定亮图片阈值
+    cout<<"imagePreProcess start"<<endl;
     cv::threshold(color_channel, src_bin_light, light_threshold, 255, CV_THRESH_BINARY); // 二值化对应通道，得到较亮的图片
-    if (src_bin_light.empty()) return false;
+    if (src_bin_light.empty()) {
+        cout<<"src_bin_light fail"<<endl;
+        return false;
+    }
     imagePreProcess(src_bin_light);                                  // 对亮图片进行开闭运算
 
     cv::threshold(color_channel, src_bin_dim, 140, 255, CV_THRESH_BINARY); // 二值化对应通道，得到较暗的图片
-    if (src_bin_dim.empty()) return false;
+    if (src_bin_dim.empty()) {
+        cout<<"src_bin_dim fail"<<endl;
+        return false;
+    }
     imagePreProcess(src_bin_dim);                                    //对暗图片进行开闭运算
-
-    // imshow("ee",src_bin_light);
-    // imshow("e",src_bin_dim);
-    // waitKey(0);
-
+    //imshow("origin",input_img);
+    // imshow("light",src_bin_light);
+    // imshow("dark",src_bin_dim);
+    //waitKey(1);
+    cout<<"imagePreProcess over"<<endl;
+     cout<<"findbolbs start"<<endl;
 // 使用两个不同的二值化阈值同时进行灯条提取，减少环境光照对二值化这个操作的影响。
 // 同时剔除重复的灯条，剔除冗余计算，即对两次找出来的灯条取交集。
     std::vector<std::vector<cv::Point>> light_contours_light, light_contours_dim;    /*创建存放轮廓的容器*/  
@@ -155,11 +163,15 @@ bool findLightBolbsSJTU(Mat &input_img)
     for (const auto &dim : light_blobs_dim) {
         light_blobs.emplace_back(dim);                                    /*将light_blobs_dim中要剩余灯条全部存入light_blobs中*/
     }
-
+    cout<<"findbolbs finsih"<<endl;
     //showLightBlobs(input_img,"lightbolbs",light_blobs); 
+    cout<<"ArmorBoxes start"<<endl;
     ArmorBoxes boxes;
     matchArmorBoxes(input_img,light_blobs,boxes);
+    cout<<"ArmorBoxes over"<<endl;
+    cout<<"showArmorBoxes start"<<endl;
     showArmorBoxes("res",input_img,boxes);
+    cout<<"showArmorBoxes over"<<endl;
     return  0;
     
 }

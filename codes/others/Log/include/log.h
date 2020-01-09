@@ -3,7 +3,7 @@
 
 #include <chrono>
 #include <cstdint>
-
+#include<iostream>
 namespace osrm{
     namespace util{
         // 用TIMER_START 定义一个变量记录开始的时间
@@ -28,12 +28,22 @@ namespace osrm{
         #define TIMER_MIN(_X)                                                                              \
             std::chrono::duration_cast<std::chrono::minutes>(_X##_stop - _X##_start).count()
         //统计耗时（ms）
-        #define TIME_COST_MS(name) std::cout << name <<" Cost: " << TIMER_MSEC(x) << " ms.\n"
+        #define TIME_COST_MS(name,var) std::cout << name <<" Cost time: " << TIMER_MSEC(var) << " ms.\n"
         //统计耗时（s）
-        #define TIME_COST_S(name) std::cout <<name<< " Cost :" << TIMER_SEC(x) << " s.\n"
+        #define TIME_COST_S(name,var) std::cout <<name<< " Cost time:" << TIMER_SEC(var) << " s.\n"
         //统计耗时（min）
-        #define TIME_COST_MIN(name) std::cout <<name<< " Cost: " << TIMER_SEC(x) << " s.\n"
+        #define TIME_COST_MIN(name,var) std::cout <<name<< " Cost time: " << TIMER_SEC(var) << " s.\n"
+
+        #define INFO(info) std::cout<<"[INFO]:"<<info<<std::endl
+
+        #define INFO_START(info,var) std::cout<<"[INFO]:"<<info<<std::endl;\
+                TIMER_START(var)
+
+        #define INFO_END(info,var) std::cout<<"[INFO]:"<<info<<std::endl;\
+                TIMER_STOP(var);\
+                TIME_COST_MS(info,var)
     }
 }
+
 
 #endif // TIMING_UTIL_HPP

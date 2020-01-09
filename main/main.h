@@ -11,6 +11,7 @@
 #include "CameraInit.h"
 #include "Preprocess.h"
 #include "energy.h"
+//#include "../others/Log/include/log.h"
 
 using namespace cv;
 using namespace std;
