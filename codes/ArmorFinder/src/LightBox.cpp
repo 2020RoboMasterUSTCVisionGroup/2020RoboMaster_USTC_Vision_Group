@@ -25,7 +25,7 @@ int lightBox(Mat image)
         findLightBolbsCSDN(image);
         cout<<"findLightBolbsCSDN finish"<<endl;
     }else{
-        cout<<"findLightBolbsSJTU start"<<endl;
+        cout<<"----------------------findLightBolbsSJTU start-------------------"<<endl;
         findLightBolbsSJTU(image);
         cout<<"findLightBolbsSJTU finish"<<endl;
     }

@@ -43,6 +43,8 @@ int main(int argc, char *argv[], char **env)
             break;
         }
         }
+        cout<<"row:"<<g_srcImage.rows<<endl;
+          cout<<"col:"<<g_srcImage.cols<<endl;
         //g_preprocess.run(g_srcImage);
         if( lightBox(g_srcImage) == 1 );
         //energy(g_srcImage);

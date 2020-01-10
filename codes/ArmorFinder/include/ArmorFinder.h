@@ -35,7 +35,13 @@ public:
     int id;
     ArmorBox(const cv::Rect &pos, const LightBlobs &blobs, uint8_t color):rect(pos),light_blobs(blobs),box_color(color){};
 
-    cv::Point2f getCenter() const; // 获取装甲板中心
+    // 获取装甲板中心点
+    cv::Point2f getCenter() const {
+        return cv::Point2f(
+                rect.x + rect.width / 2,
+                rect.y + rect.height / 2
+        );
+    }
     double getBlobsDistance() const; // 获取两个灯条中心间距
     double lengthDistanceRatio() const; // 获取灯条中心距和灯条长度的比值
     double getBoxDistance() const; // 获取装甲板到摄像头的距离
@@ -43,6 +49,7 @@ public:
     bool operator<(const ArmorBox &box) const; // 装甲板优先级比较
 };
 typedef std::vector<ArmorBox> ArmorBoxes;
+
 #define BLOB_RED 1
 #define BLOB_BLUE 0
 

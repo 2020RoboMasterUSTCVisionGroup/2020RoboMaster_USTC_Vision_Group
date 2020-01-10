@@ -6,8 +6,7 @@
 //-----------------------------头文件引用和命名空间-------------------
 
 #include "ArmorFinder.h"
-
- 
+int canTansfer(int data[]);
 // 旋转矩形的长宽比
 static double lw_rate(const cv::RotatedRect &rect) {
     return rect.size.height > rect.size.width ?
@@ -67,6 +66,27 @@ static void imagePreProcess(cv::Mat &src) {
     erode(src, src, kernel_erode2);
 }
 
+static bool isValidExtLightBolbsContour(const vector<cv::Point> &armor_contour_external) {    //留下面积大于3000的
+    double cur_contour_area2 = cv::contourArea(armor_contour_external);
+    //cout<<cur_contour_area2<<endl;
+    if (cur_contour_area2 > 100) {
+        return true;
+    }
+        return false;
+}
+static bool getPosition(ArmorBoxes &boxes){
+    int data[4];
+    for(auto &box:boxes){
+        double relative_x=box.getCenter().x-640;
+        double relative_y=box.getCenter().y-512;
+        data[0]=int(relative_x);
+        data[1]=int(relative_y);
+        data[2]=int(640);
+        data[3]=int(512);
+        canTansfer(data);
+    }
+}
+
 /**
 *@author： 代成浩 戴浪
 *@name：findLightBolbsSJTU()
@@ -104,7 +124,6 @@ bool findLightBolbsSJTU(Mat &input_img)
     // imshow("light",src_bin_light);
     // imshow("dark",src_bin_dim);
     //waitKey(1);
-    cout<<"imagePreProcess over"<<endl;
      cout<<"findbolbs start"<<endl;
 // 使用两个不同的二值化阈值同时进行灯条提取，减少环境光照对二值化这个操作的影响。
 // 同时剔除重复的灯条，剔除冗余计算，即对两次找出来的灯条取交集。
@@ -115,6 +134,9 @@ bool findLightBolbsSJTU(Mat &input_img)
     cv::findContours(src_bin_dim, light_contours_dim, hierarchy_dim, CV_RETR_CCOMP, CV_CHAIN_APPROX_NONE);      /*在经过二值化的较暗图片中进行轮廓提取*/ 
     //对light_contours_light中的轮廓用isValidLightBlob函数进行逐一比对，判断其是否为灯条，并若是将相关的信息存入
     for (int i = 0; i < light_contours_light.size(); i++) {
+        if(!isValidExtLightBolbsContour(light_contours_light[i])){
+            continue;
+        }
         if (hierarchy_light[i][2] == -1) {
             cv::RotatedRect rect = cv::minAreaRect(light_contours_light[i]);
             if (isValidLightBlob(light_contours_light[i], rect)) {                         
@@ -126,6 +148,9 @@ bool findLightBolbsSJTU(Mat &input_img)
     }
     //对light_contours_dim中的轮廓用isValidLightBlob函数进行逐一比对，判断其是否为灯条，并若是将相关的信息存入
     for (int i = 0; i < light_contours_dim.size(); i++) {
+         if(!isValidExtLightBolbsContour(light_contours_dim[i])){
+            continue;
+        }
         if (hierarchy_dim[i][2] == -1) {
             cv::RotatedRect rect = cv::minAreaRect(light_contours_dim[i]);
             if (isValidLightBlob(light_contours_dim[i], rect)) {
@@ -168,7 +193,7 @@ bool findLightBolbsSJTU(Mat &input_img)
     cout<<"ArmorBoxes start"<<endl;
     ArmorBoxes boxes;
     matchArmorBoxes(input_img,light_blobs,boxes);
-    cout<<"ArmorBoxes over"<<endl;
+    getPosition(boxes);
     cout<<"showArmorBoxes start"<<endl;
     showArmorBoxes("res",input_img,boxes);
     cout<<"showArmorBoxes over"<<endl;

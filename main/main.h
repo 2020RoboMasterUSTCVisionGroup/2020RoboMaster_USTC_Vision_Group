@@ -24,6 +24,7 @@ using namespace std;
 #define CAMERA_INIT_FAIL    0
 int lightBox(Mat image);
 void systemInit();
+
 //------------------------全局变量定义---------------------
 //变量定义阶段
 int g_source_type;
