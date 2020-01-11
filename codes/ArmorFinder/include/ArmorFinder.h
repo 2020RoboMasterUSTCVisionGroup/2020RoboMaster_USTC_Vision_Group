@@ -42,7 +42,16 @@ public:
                 rect.y + rect.height / 2
         );
     }
-    double getBlobsDistance() const; // 获取两个灯条中心间距
+    // 获取两个灯条中心点的间距
+    double getBlobsDistance() const {
+        if (light_blobs.size() == 2) {
+            auto &x = light_blobs[0].rect.center;
+            auto &y = light_blobs[1].rect.center;
+            return sqrt((x.x - y.x) * (x.x - y.x) + (x.y - y.y) * (x.y - y.y));
+        } else {
+            return 0;
+        }
+    }
     double lengthDistanceRatio() const; // 获取灯条中心距和灯条长度的比值
     double getBoxDistance() const; // 获取装甲板到摄像头的距离
 

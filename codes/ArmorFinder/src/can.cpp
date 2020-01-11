@@ -54,7 +54,7 @@ int canTansfer(int data[])
          for (int i=0; i<4; i++)
          {
         	frame.data[i] = data[i];
-        	printf("%#x ", frame.data[0]);
+        	printf("%#x ", frame.data[i]);
 
          }
 

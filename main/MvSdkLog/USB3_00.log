@@ -15845,3 +15845,2446 @@
 [2020-01-10 23:16:10] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
 [2020-01-10 23:16:11] |    StreamProcess.cpp-L1471: delete one DataNode
 [2020-01-10 23:16:11] |    StreamProcess.cpp-L0541: nFrameNum[1] pstFrameInfo->nFrameNum[3]
+[2020-01-11 00:50:26] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 00:50:26] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 00:52:04] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 00:52:05] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 01:03:07] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 01:03:07] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 01:09:29] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 01:09:29] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 01:15:03] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 01:15:04] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:04:00] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:04:00] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:13:56] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:13:56] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:15:03] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:15:04] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:16:02] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:16:03] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:19:06] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:19:07] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:24:29] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:24:30] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:25:33] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:25:34] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:26:57] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:26:58] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 18:57:29] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 18:57:30] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 19:10:16] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 19:10:17] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:19:00] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:19:01] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L0541: nFrameNum[0] pstFrameInfo->nFrameNum[10]
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L0541: nFrameNum[10] pstFrameInfo->nFrameNum[21]
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L0541: nFrameNum[21] pstFrameInfo->nFrameNum[33]
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L0541: nFrameNum[33] pstFrameInfo->nFrameNum[43]
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L0541: nFrameNum[43] pstFrameInfo->nFrameNum[57]
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L0541: nFrameNum[57] pstFrameInfo->nFrameNum[68]
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:01] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[68] pstFrameInfo->nFrameNum[77]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[77] pstFrameInfo->nFrameNum[87]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[87] pstFrameInfo->nFrameNum[97]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[97] pstFrameInfo->nFrameNum[109]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[109] pstFrameInfo->nFrameNum[120]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[120] pstFrameInfo->nFrameNum[127]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[127] pstFrameInfo->nFrameNum[135]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[135] pstFrameInfo->nFrameNum[143]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[143] pstFrameInfo->nFrameNum[152]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L0541: nFrameNum[152] pstFrameInfo->nFrameNum[161]
+[2020-01-11 22:19:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[161] pstFrameInfo->nFrameNum[169]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[169] pstFrameInfo->nFrameNum[178]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[178] pstFrameInfo->nFrameNum[187]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[187] pstFrameInfo->nFrameNum[196]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[196] pstFrameInfo->nFrameNum[205]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[205] pstFrameInfo->nFrameNum[215]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[215] pstFrameInfo->nFrameNum[224]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[224] pstFrameInfo->nFrameNum[234]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[234] pstFrameInfo->nFrameNum[244]
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:03] |    StreamProcess.cpp-L0541: nFrameNum[244] pstFrameInfo->nFrameNum[252]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[252] pstFrameInfo->nFrameNum[261]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[261] pstFrameInfo->nFrameNum[269]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[269] pstFrameInfo->nFrameNum[277]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[277] pstFrameInfo->nFrameNum[285]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[285] pstFrameInfo->nFrameNum[293]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[293] pstFrameInfo->nFrameNum[303]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[303] pstFrameInfo->nFrameNum[311]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[311] pstFrameInfo->nFrameNum[320]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[320] pstFrameInfo->nFrameNum[327]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L0541: nFrameNum[327] pstFrameInfo->nFrameNum[339]
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:04] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[339] pstFrameInfo->nFrameNum[347]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[347] pstFrameInfo->nFrameNum[354]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[354] pstFrameInfo->nFrameNum[361]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[361] pstFrameInfo->nFrameNum[369]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[369] pstFrameInfo->nFrameNum[377]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[377] pstFrameInfo->nFrameNum[389]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[389] pstFrameInfo->nFrameNum[399]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[399] pstFrameInfo->nFrameNum[408]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[408] pstFrameInfo->nFrameNum[417]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L0541: nFrameNum[417] pstFrameInfo->nFrameNum[425]
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[425] pstFrameInfo->nFrameNum[435]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[435] pstFrameInfo->nFrameNum[443]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[443] pstFrameInfo->nFrameNum[451]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[451] pstFrameInfo->nFrameNum[461]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[461] pstFrameInfo->nFrameNum[472]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[472] pstFrameInfo->nFrameNum[484]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[484] pstFrameInfo->nFrameNum[494]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[494] pstFrameInfo->nFrameNum[503]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L0541: nFrameNum[503] pstFrameInfo->nFrameNum[514]
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[514] pstFrameInfo->nFrameNum[523]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[523] pstFrameInfo->nFrameNum[531]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[531] pstFrameInfo->nFrameNum[540]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[540] pstFrameInfo->nFrameNum[549]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[549] pstFrameInfo->nFrameNum[558]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[558] pstFrameInfo->nFrameNum[568]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[568] pstFrameInfo->nFrameNum[577]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[577] pstFrameInfo->nFrameNum[586]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[586] pstFrameInfo->nFrameNum[595]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[595] pstFrameInfo->nFrameNum[604]
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:07] |    StreamProcess.cpp-L0541: nFrameNum[604] pstFrameInfo->nFrameNum[612]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[612] pstFrameInfo->nFrameNum[619]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[619] pstFrameInfo->nFrameNum[629]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[629] pstFrameInfo->nFrameNum[638]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[638] pstFrameInfo->nFrameNum[648]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[648] pstFrameInfo->nFrameNum[657]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[657] pstFrameInfo->nFrameNum[665]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[665] pstFrameInfo->nFrameNum[674]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[674] pstFrameInfo->nFrameNum[683]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L0541: nFrameNum[683] pstFrameInfo->nFrameNum[693]
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[693] pstFrameInfo->nFrameNum[703]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[703] pstFrameInfo->nFrameNum[711]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[711] pstFrameInfo->nFrameNum[719]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[719] pstFrameInfo->nFrameNum[728]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[728] pstFrameInfo->nFrameNum[737]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[737] pstFrameInfo->nFrameNum[745]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[745] pstFrameInfo->nFrameNum[754]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[754] pstFrameInfo->nFrameNum[763]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[763] pstFrameInfo->nFrameNum[771]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[771] pstFrameInfo->nFrameNum[781]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L0541: nFrameNum[781] pstFrameInfo->nFrameNum[790]
+[2020-01-11 22:19:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[790] pstFrameInfo->nFrameNum[798]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[798] pstFrameInfo->nFrameNum[805]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[805] pstFrameInfo->nFrameNum[813]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[813] pstFrameInfo->nFrameNum[821]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[821] pstFrameInfo->nFrameNum[828]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[828] pstFrameInfo->nFrameNum[837]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[837] pstFrameInfo->nFrameNum[847]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[847] pstFrameInfo->nFrameNum[855]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[855] pstFrameInfo->nFrameNum[864]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[864] pstFrameInfo->nFrameNum[872]
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:10] |    StreamProcess.cpp-L0541: nFrameNum[872] pstFrameInfo->nFrameNum[881]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[881] pstFrameInfo->nFrameNum[893]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[893] pstFrameInfo->nFrameNum[904]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[904] pstFrameInfo->nFrameNum[914]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[914] pstFrameInfo->nFrameNum[923]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[923] pstFrameInfo->nFrameNum[931]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[931] pstFrameInfo->nFrameNum[940]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[940] pstFrameInfo->nFrameNum[948]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[948] pstFrameInfo->nFrameNum[958]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L0541: nFrameNum[958] pstFrameInfo->nFrameNum[968]
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[968] pstFrameInfo->nFrameNum[976]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[976] pstFrameInfo->nFrameNum[985]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[985] pstFrameInfo->nFrameNum[993]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[993] pstFrameInfo->nFrameNum[1002]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[1002] pstFrameInfo->nFrameNum[1010]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[1010] pstFrameInfo->nFrameNum[1019]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[1019] pstFrameInfo->nFrameNum[1026]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[1026] pstFrameInfo->nFrameNum[1033]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[1033] pstFrameInfo->nFrameNum[1042]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[1042] pstFrameInfo->nFrameNum[1049]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L0541: nFrameNum[1049] pstFrameInfo->nFrameNum[1060]
+[2020-01-11 22:19:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1060] pstFrameInfo->nFrameNum[1068]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1068] pstFrameInfo->nFrameNum[1077]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1077] pstFrameInfo->nFrameNum[1085]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1085] pstFrameInfo->nFrameNum[1094]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1094] pstFrameInfo->nFrameNum[1101]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1101] pstFrameInfo->nFrameNum[1107]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1107] pstFrameInfo->nFrameNum[1116]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1116] pstFrameInfo->nFrameNum[1125]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1125] pstFrameInfo->nFrameNum[1134]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L0541: nFrameNum[1134] pstFrameInfo->nFrameNum[1144]
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1144] pstFrameInfo->nFrameNum[1152]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1152] pstFrameInfo->nFrameNum[1159]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1159] pstFrameInfo->nFrameNum[1169]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1169] pstFrameInfo->nFrameNum[1176]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1176] pstFrameInfo->nFrameNum[1185]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1185] pstFrameInfo->nFrameNum[1195]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1195] pstFrameInfo->nFrameNum[1204]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1204] pstFrameInfo->nFrameNum[1213]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1213] pstFrameInfo->nFrameNum[1221]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1221] pstFrameInfo->nFrameNum[1230]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L0541: nFrameNum[1230] pstFrameInfo->nFrameNum[1238]
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1238] pstFrameInfo->nFrameNum[1248]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1248] pstFrameInfo->nFrameNum[1256]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1256] pstFrameInfo->nFrameNum[1265]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1265] pstFrameInfo->nFrameNum[1274]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1274] pstFrameInfo->nFrameNum[1282]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1282] pstFrameInfo->nFrameNum[1292]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1292] pstFrameInfo->nFrameNum[1302]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1302] pstFrameInfo->nFrameNum[1313]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1313] pstFrameInfo->nFrameNum[1323]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L0541: nFrameNum[1323] pstFrameInfo->nFrameNum[1330]
+[2020-01-11 22:19:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1330] pstFrameInfo->nFrameNum[1339]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1339] pstFrameInfo->nFrameNum[1347]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1347] pstFrameInfo->nFrameNum[1355]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1355] pstFrameInfo->nFrameNum[1362]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1362] pstFrameInfo->nFrameNum[1372]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1372] pstFrameInfo->nFrameNum[1381]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1381] pstFrameInfo->nFrameNum[1390]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1390] pstFrameInfo->nFrameNum[1400]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1400] pstFrameInfo->nFrameNum[1409]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L0541: nFrameNum[1409] pstFrameInfo->nFrameNum[1418]
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:16] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1418] pstFrameInfo->nFrameNum[1427]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1427] pstFrameInfo->nFrameNum[1437]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1437] pstFrameInfo->nFrameNum[1446]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1446] pstFrameInfo->nFrameNum[1453]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1453] pstFrameInfo->nFrameNum[1463]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1463] pstFrameInfo->nFrameNum[1473]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1473] pstFrameInfo->nFrameNum[1482]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1482] pstFrameInfo->nFrameNum[1491]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1491] pstFrameInfo->nFrameNum[1500]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L0541: nFrameNum[1500] pstFrameInfo->nFrameNum[1508]
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1508] pstFrameInfo->nFrameNum[1516]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1516] pstFrameInfo->nFrameNum[1525]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1525] pstFrameInfo->nFrameNum[1532]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1532] pstFrameInfo->nFrameNum[1540]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1540] pstFrameInfo->nFrameNum[1549]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1549] pstFrameInfo->nFrameNum[1557]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1557] pstFrameInfo->nFrameNum[1565]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1565] pstFrameInfo->nFrameNum[1571]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1571] pstFrameInfo->nFrameNum[1583]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1583] pstFrameInfo->nFrameNum[1591]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L0541: nFrameNum[1591] pstFrameInfo->nFrameNum[1599]
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1599] pstFrameInfo->nFrameNum[1609]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1609] pstFrameInfo->nFrameNum[1619]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1619] pstFrameInfo->nFrameNum[1627]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1627] pstFrameInfo->nFrameNum[1637]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1637] pstFrameInfo->nFrameNum[1647]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1647] pstFrameInfo->nFrameNum[1656]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1656] pstFrameInfo->nFrameNum[1666]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1666] pstFrameInfo->nFrameNum[1679]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L0541: nFrameNum[1679] pstFrameInfo->nFrameNum[1688]
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1688] pstFrameInfo->nFrameNum[1698]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1698] pstFrameInfo->nFrameNum[1708]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1708] pstFrameInfo->nFrameNum[1716]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1716] pstFrameInfo->nFrameNum[1727]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1727] pstFrameInfo->nFrameNum[1738]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1738] pstFrameInfo->nFrameNum[1748]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1748] pstFrameInfo->nFrameNum[1756]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1756] pstFrameInfo->nFrameNum[1766]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L0541: nFrameNum[1766] pstFrameInfo->nFrameNum[1777]
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:20] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1777] pstFrameInfo->nFrameNum[1786]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1786] pstFrameInfo->nFrameNum[1798]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1798] pstFrameInfo->nFrameNum[1813]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1813] pstFrameInfo->nFrameNum[1822]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1822] pstFrameInfo->nFrameNum[1832]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1832] pstFrameInfo->nFrameNum[1842]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1842] pstFrameInfo->nFrameNum[1852]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1852] pstFrameInfo->nFrameNum[1861]
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:21] |    StreamProcess.cpp-L0541: nFrameNum[1861] pstFrameInfo->nFrameNum[1871]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1871] pstFrameInfo->nFrameNum[1880]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1880] pstFrameInfo->nFrameNum[1888]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1888] pstFrameInfo->nFrameNum[1899]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1899] pstFrameInfo->nFrameNum[1909]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1909] pstFrameInfo->nFrameNum[1917]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1917] pstFrameInfo->nFrameNum[1927]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1927] pstFrameInfo->nFrameNum[1936]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1936] pstFrameInfo->nFrameNum[1943]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1943] pstFrameInfo->nFrameNum[1950]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L0541: nFrameNum[1950] pstFrameInfo->nFrameNum[1959]
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[1959] pstFrameInfo->nFrameNum[1968]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[1968] pstFrameInfo->nFrameNum[1978]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[1978] pstFrameInfo->nFrameNum[1988]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[1988] pstFrameInfo->nFrameNum[1997]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[1997] pstFrameInfo->nFrameNum[2009]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[2009] pstFrameInfo->nFrameNum[2020]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[2020] pstFrameInfo->nFrameNum[2030]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[2030] pstFrameInfo->nFrameNum[2039]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L0541: nFrameNum[2039] pstFrameInfo->nFrameNum[2049]
+[2020-01-11 22:19:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2049] pstFrameInfo->nFrameNum[2057]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2057] pstFrameInfo->nFrameNum[2066]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2066] pstFrameInfo->nFrameNum[2078]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2078] pstFrameInfo->nFrameNum[2090]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2090] pstFrameInfo->nFrameNum[2100]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2100] pstFrameInfo->nFrameNum[2113]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2113] pstFrameInfo->nFrameNum[2124]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L0541: nFrameNum[2124] pstFrameInfo->nFrameNum[2134]
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L0541: nFrameNum[2134] pstFrameInfo->nFrameNum[2146]
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L0541: nFrameNum[2146] pstFrameInfo->nFrameNum[2155]
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L0541: nFrameNum[2155] pstFrameInfo->nFrameNum[2162]
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L0541: nFrameNum[2162] pstFrameInfo->nFrameNum[2170]
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:19:25] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:04] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:20:04] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:20:05] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:05] |    StreamProcess.cpp-L0541: nFrameNum[4] pstFrameInfo->nFrameNum[6]
+[2020-01-11 22:20:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:06] |    StreamProcess.cpp-L0541: nFrameNum[15] pstFrameInfo->nFrameNum[17]
+[2020-01-11 22:20:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:14] |    StreamProcess.cpp-L0541: nFrameNum[123] pstFrameInfo->nFrameNum[125]
+[2020-01-11 22:20:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:24] |    StreamProcess.cpp-L0541: nFrameNum[256] pstFrameInfo->nFrameNum[258]
+[2020-01-11 22:20:28] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:28] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:28] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:28] |    StreamProcess.cpp-L0541: nFrameNum[318] pstFrameInfo->nFrameNum[320]
+[2020-01-11 22:20:30] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:30] |    StreamProcess.cpp-L0541: nFrameNum[339] pstFrameInfo->nFrameNum[341]
+[2020-01-11 22:20:33] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:33] |    StreamProcess.cpp-L0541: nFrameNum[384] pstFrameInfo->nFrameNum[386]
+[2020-01-11 22:20:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:40] |    StreamProcess.cpp-L0541: nFrameNum[474] pstFrameInfo->nFrameNum[476]
+[2020-01-11 22:20:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:41] |    StreamProcess.cpp-L0541: nFrameNum[487] pstFrameInfo->nFrameNum[489]
+[2020-01-11 22:20:42] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:42] |    StreamProcess.cpp-L0541: nFrameNum[502] pstFrameInfo->nFrameNum[504]
+[2020-01-11 22:20:43] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:43] |    StreamProcess.cpp-L0541: nFrameNum[518] pstFrameInfo->nFrameNum[520]
+[2020-01-11 22:20:46] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:46] |    StreamProcess.cpp-L0541: nFrameNum[550] pstFrameInfo->nFrameNum[552]
+[2020-01-11 22:20:48] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:48] |    StreamProcess.cpp-L0541: nFrameNum[580] pstFrameInfo->nFrameNum[582]
+[2020-01-11 22:20:50] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:50] |    StreamProcess.cpp-L0541: nFrameNum[611] pstFrameInfo->nFrameNum[613]
+[2020-01-11 22:20:51] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:51] |    StreamProcess.cpp-L0541: nFrameNum[618] pstFrameInfo->nFrameNum[620]
+[2020-01-11 22:20:52] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:52] |    StreamProcess.cpp-L0541: nFrameNum[633] pstFrameInfo->nFrameNum[635]
+[2020-01-11 22:20:55] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:20:55] |    StreamProcess.cpp-L0541: nFrameNum[668] pstFrameInfo->nFrameNum[670]
+[2020-01-11 22:21:00] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:00] |    StreamProcess.cpp-L0541: nFrameNum[743] pstFrameInfo->nFrameNum[745]
+[2020-01-11 22:21:00] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:01] |    StreamProcess.cpp-L0541: nFrameNum[747] pstFrameInfo->nFrameNum[749]
+[2020-01-11 22:21:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:07] |    StreamProcess.cpp-L0541: nFrameNum[834] pstFrameInfo->nFrameNum[836]
+[2020-01-11 22:21:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:09] |    StreamProcess.cpp-L0541: nFrameNum[865] pstFrameInfo->nFrameNum[867]
+[2020-01-11 22:21:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:10] |    StreamProcess.cpp-L0541: nFrameNum[879] pstFrameInfo->nFrameNum[881]
+[2020-01-11 22:21:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:12] |    StreamProcess.cpp-L0541: nFrameNum[901] pstFrameInfo->nFrameNum[903]
+[2020-01-11 22:21:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:12] |    StreamProcess.cpp-L0541: nFrameNum[906] pstFrameInfo->nFrameNum[908]
+[2020-01-11 22:21:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:13] |    StreamProcess.cpp-L0541: nFrameNum[911] pstFrameInfo->nFrameNum[913]
+[2020-01-11 22:21:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:13] |    StreamProcess.cpp-L0541: nFrameNum[916] pstFrameInfo->nFrameNum[918]
+[2020-01-11 22:21:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:13] |    StreamProcess.cpp-L0541: nFrameNum[919] pstFrameInfo->nFrameNum[921]
+[2020-01-11 22:21:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:21:14] |    StreamProcess.cpp-L0541: nFrameNum[921] pstFrameInfo->nFrameNum[923]
+[2020-01-11 22:25:50] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:25:51] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:25:51] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:51] |    StreamProcess.cpp-L0541: nFrameNum[1] pstFrameInfo->nFrameNum[3]
+[2020-01-11 22:25:52] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:52] |    StreamProcess.cpp-L0541: nFrameNum[12] pstFrameInfo->nFrameNum[14]
+[2020-01-11 22:25:52] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:52] |    StreamProcess.cpp-L0541: nFrameNum[20] pstFrameInfo->nFrameNum[22]
+[2020-01-11 22:25:54] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:54] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:54] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:54] |    StreamProcess.cpp-L0541: nFrameNum[37] pstFrameInfo->nFrameNum[39]
+[2020-01-11 22:25:54] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:54] |    StreamProcess.cpp-L0541: nFrameNum[48] pstFrameInfo->nFrameNum[50]
+[2020-01-11 22:25:55] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:55] |    StreamProcess.cpp-L0541: nFrameNum[54] pstFrameInfo->nFrameNum[56]
+[2020-01-11 22:25:55] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:55] |    StreamProcess.cpp-L0541: nFrameNum[62] pstFrameInfo->nFrameNum[64]
+[2020-01-11 22:25:56] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:56] |    StreamProcess.cpp-L0541: nFrameNum[67] pstFrameInfo->nFrameNum[69]
+[2020-01-11 22:25:57] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:57] |    StreamProcess.cpp-L0541: nFrameNum[80] pstFrameInfo->nFrameNum[82]
+[2020-01-11 22:25:58] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:58] |    StreamProcess.cpp-L0541: nFrameNum[101] pstFrameInfo->nFrameNum[103]
+[2020-01-11 22:25:59] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:25:59] |    StreamProcess.cpp-L0541: nFrameNum[115] pstFrameInfo->nFrameNum[117]
+[2020-01-11 22:26:00] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:00] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:00] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:00] |    StreamProcess.cpp-L0541: nFrameNum[128] pstFrameInfo->nFrameNum[130]
+[2020-01-11 22:26:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:03] |    StreamProcess.cpp-L0541: nFrameNum[169] pstFrameInfo->nFrameNum[171]
+[2020-01-11 22:26:06] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:06] |    StreamProcess.cpp-L0541: nFrameNum[209] pstFrameInfo->nFrameNum[211]
+[2020-01-11 22:26:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:07] |    StreamProcess.cpp-L0541: nFrameNum[216] pstFrameInfo->nFrameNum[218]
+[2020-01-11 22:26:07] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:07] |    StreamProcess.cpp-L0541: nFrameNum[220] pstFrameInfo->nFrameNum[222]
+[2020-01-11 22:26:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:08] |    StreamProcess.cpp-L0541: nFrameNum[226] pstFrameInfo->nFrameNum[228]
+[2020-01-11 22:26:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:10] |    StreamProcess.cpp-L0541: nFrameNum[252] pstFrameInfo->nFrameNum[254]
+[2020-01-11 22:26:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:10] |    StreamProcess.cpp-L0541: nFrameNum[261] pstFrameInfo->nFrameNum[263]
+[2020-01-11 22:26:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:12] |    StreamProcess.cpp-L0541: nFrameNum[288] pstFrameInfo->nFrameNum[290]
+[2020-01-11 22:26:14] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:14] |    StreamProcess.cpp-L0541: nFrameNum[308] pstFrameInfo->nFrameNum[310]
+[2020-01-11 22:26:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:18] |    StreamProcess.cpp-L0541: nFrameNum[358] pstFrameInfo->nFrameNum[360]
+[2020-01-11 22:26:18] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:18] |    StreamProcess.cpp-L0541: nFrameNum[366] pstFrameInfo->nFrameNum[368]
+[2020-01-11 22:26:19] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:19] |    StreamProcess.cpp-L0541: nFrameNum[372] pstFrameInfo->nFrameNum[374]
+[2020-01-11 22:26:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:21] |    StreamProcess.cpp-L0541: nFrameNum[398] pstFrameInfo->nFrameNum[400]
+[2020-01-11 22:26:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:23] |    StreamProcess.cpp-L0541: nFrameNum[431] pstFrameInfo->nFrameNum[433]
+[2020-01-11 22:26:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:23] |    StreamProcess.cpp-L0541: nFrameNum[434] pstFrameInfo->nFrameNum[436]
+[2020-01-11 22:26:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:24] |    StreamProcess.cpp-L0541: nFrameNum[437] pstFrameInfo->nFrameNum[439]
+[2020-01-11 22:26:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:26:24] |    StreamProcess.cpp-L0541: nFrameNum[443] pstFrameInfo->nFrameNum[445]
+[2020-01-11 22:27:50] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:27:51] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:27:51] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:27:51] |    StreamProcess.cpp-L0541: nFrameNum[4] pstFrameInfo->nFrameNum[6]
+[2020-01-11 22:27:52] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:27:52] |    StreamProcess.cpp-L0541: nFrameNum[9] pstFrameInfo->nFrameNum[11]
+[2020-01-11 22:27:54] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:27:54] |    StreamProcess.cpp-L0541: nFrameNum[39] pstFrameInfo->nFrameNum[41]
+[2020-01-11 22:27:58] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:27:58] |    StreamProcess.cpp-L0541: nFrameNum[86] pstFrameInfo->nFrameNum[88]
+[2020-01-11 22:27:59] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:27:59] |    StreamProcess.cpp-L0541: nFrameNum[107] pstFrameInfo->nFrameNum[109]
+[2020-01-11 22:28:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:02] |    StreamProcess.cpp-L0541: nFrameNum[140] pstFrameInfo->nFrameNum[142]
+[2020-01-11 22:28:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:08] |    StreamProcess.cpp-L0541: nFrameNum[223] pstFrameInfo->nFrameNum[225]
+[2020-01-11 22:28:09] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:09] |    StreamProcess.cpp-L0541: nFrameNum[244] pstFrameInfo->nFrameNum[246]
+[2020-01-11 22:28:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:11] |    StreamProcess.cpp-L0541: nFrameNum[262] pstFrameInfo->nFrameNum[264]
+[2020-01-11 22:28:13] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:13] |    StreamProcess.cpp-L0541: nFrameNum[291] pstFrameInfo->nFrameNum[293]
+[2020-01-11 22:28:15] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:15] |    StreamProcess.cpp-L0541: nFrameNum[316] pstFrameInfo->nFrameNum[318]
+[2020-01-11 22:28:17] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:17] |    StreamProcess.cpp-L0541: nFrameNum[341] pstFrameInfo->nFrameNum[343]
+[2020-01-11 22:28:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:22] |    StreamProcess.cpp-L0541: nFrameNum[413] pstFrameInfo->nFrameNum[415]
+[2020-01-11 22:28:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:24] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:24] |    StreamProcess.cpp-L0541: nFrameNum[446] pstFrameInfo->nFrameNum[448]
+[2020-01-11 22:28:26] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:26] |    StreamProcess.cpp-L0541: nFrameNum[463] pstFrameInfo->nFrameNum[465]
+[2020-01-11 22:28:28] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:28] |    StreamProcess.cpp-L0541: nFrameNum[489] pstFrameInfo->nFrameNum[491]
+[2020-01-11 22:28:31] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:31] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:31] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:31] |    StreamProcess.cpp-L0541: nFrameNum[533] pstFrameInfo->nFrameNum[535]
+[2020-01-11 22:28:32] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:32] |    StreamProcess.cpp-L0541: nFrameNum[553] pstFrameInfo->nFrameNum[555]
+[2020-01-11 22:28:34] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:34] |    StreamProcess.cpp-L0541: nFrameNum[580] pstFrameInfo->nFrameNum[582]
+[2020-01-11 22:28:36] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:36] |    StreamProcess.cpp-L0541: nFrameNum[607] pstFrameInfo->nFrameNum[609]
+[2020-01-11 22:28:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:41] |    StreamProcess.cpp-L0541: nFrameNum[663] pstFrameInfo->nFrameNum[665]
+[2020-01-11 22:28:43] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:43] |    StreamProcess.cpp-L0541: nFrameNum[697] pstFrameInfo->nFrameNum[699]
+[2020-01-11 22:28:44] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:44] |    StreamProcess.cpp-L0541: nFrameNum[707] pstFrameInfo->nFrameNum[709]
+[2020-01-11 22:28:44] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:44] |    StreamProcess.cpp-L0541: nFrameNum[712] pstFrameInfo->nFrameNum[714]
+[2020-01-11 22:28:45] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:28:45] |    StreamProcess.cpp-L0541: nFrameNum[721] pstFrameInfo->nFrameNum[723]
+[2020-01-11 22:33:01] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:33:02] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:33:02] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:02] |    StreamProcess.cpp-L0541: nFrameNum[2] pstFrameInfo->nFrameNum[4]
+[2020-01-11 22:33:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:03] |    StreamProcess.cpp-L0541: nFrameNum[7] pstFrameInfo->nFrameNum[9]
+[2020-01-11 22:33:03] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:03] |    StreamProcess.cpp-L0541: nFrameNum[17] pstFrameInfo->nFrameNum[19]
+[2020-01-11 22:33:08] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:08] |    StreamProcess.cpp-L0541: nFrameNum[81] pstFrameInfo->nFrameNum[83]
+[2020-01-11 22:33:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:21] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:21] |    StreamProcess.cpp-L0541: nFrameNum[254] pstFrameInfo->nFrameNum[256]
+[2020-01-11 22:33:22] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:22] |    StreamProcess.cpp-L0541: nFrameNum[266] pstFrameInfo->nFrameNum[268]
+[2020-01-11 22:33:23] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-01-11 22:33:23] |    StreamProcess.cpp-L0541: nFrameNum[277] pstFrameInfo->nFrameNum[279]
+[2020-01-11 22:35:21] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:35:22] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:39:31] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:39:31] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:42:13] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:42:13] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:43:00] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:43:01] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:46:51] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:46:52] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:54:16] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:54:17] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 

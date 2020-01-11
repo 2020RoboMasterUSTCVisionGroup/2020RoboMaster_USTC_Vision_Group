@@ -69,6 +69,11 @@
            CuoWeiDuJudge(light_blob_i, light_blob_j);
 
     }
+     static bool isValidBolbpair(const cv::Rect2d rect_left , const cv::Rect2d rect_right){
+         double length=abs(rect_left.x-rect_right.x);
+         double height=rect_left.height>rect_right.height?rect_right.height:rect_left.height;
+         return length/height<2.5&&length/height>0.8;
+     }
     /**
      * @func:匹配装甲板,外部调用只需调用该函数即可
      * @para:src:一帧图像,light_bolbs:灯条存储vector，armor_boxes:装甲板存储vector，匹配到的装甲板存储到此处
@@ -90,7 +95,7 @@
                 double min_x, min_y, max_x, max_y;
                 min_x = fmin(rect_left.x, rect_right.x) - 4;
                 max_x = fmax(rect_left.x + rect_left.width, rect_right.x + rect_right.width) + 4;
-                min_y = fmin(rect_left.y, rect_right.y) - 0.5 * (rect_left.height + rect_right.height) / 2.0;
+                min_y = fmin(rect_left.y, rect_right.y)- 0.5 * (rect_left.height + rect_right.height) / 2.0;
                 max_y = fmax(rect_left.y + rect_left.height, rect_right.y + rect_right.height) +
                         0.5 * (rect_left.height + rect_right.height) / 2.0;
                 if (min_x < 0 || max_x > src.cols || min_y < 0 || max_y > src.rows) {
@@ -98,8 +103,20 @@
                 }
                 if ((max_y + min_y) / 2 < 120) continue;
                 if ((max_x - min_x) / (max_y - min_y) < 0.8) continue;
-                 cout<<"    pair_blobs start!"<<endl;
+                if((max_x - min_x) / (max_y - min_y) > 1.5) continue;
+                
+                if(rect_left.height/rect_right.height>1.1
+                    ||rect_left.height/rect_right.height<0.9){
+                    continue;
+                }
+                // if(abs(rect_left.y-rect_right.y)>1){
+                //     continue;
+                // }
+                if(!isValidBolbpair(rect_left,rect_right)){
+                    continue;
+                }
                 LightBlobs pair_blobs = {light_blobs.at(i), light_blobs.at(j)};
+               
                 armor_boxes.emplace_back(
                         cv::Rect2d(min_x, min_y, max_x - min_x, max_y - min_y),
                         pair_blobs,
