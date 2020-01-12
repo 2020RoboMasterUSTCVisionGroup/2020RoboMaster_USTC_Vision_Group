@@ -48,14 +48,14 @@ int canTansfer(int data[])
 	/* configure sending */
         /* configure can_id and can data length */
 		frame.can_id = 0x1F;
-        frame.can_dlc = 4;
+        frame.can_dlc = 8;
         printf("%s ID=%#x data length=%d\n", ifr.ifr_name, frame.can_id, frame.can_dlc);
         /* prepare data for sending: 0x11,0x22...0x88 */
-         for (int i=0; i<4; i++)
+         for (int i=0; i<8; i++)
          {
         	frame.data[i] = data[i];
-        	printf("%#x ", frame.data[i]);
-
+        	printf("%#x\n", frame.data[i]);
+            printf("%#x\n", data[i]);
          }
 
         printf("Sent out\n");

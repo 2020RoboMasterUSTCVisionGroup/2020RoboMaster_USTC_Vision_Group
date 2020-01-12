@@ -18288,3 +18288,7 @@
 [2020-01-11 22:46:52] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
 [2020-01-11 22:54:16] |      DriverLayer.cpp-L0552: device speed: [4]
 [2020-01-11 22:54:17] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 22:59:45] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 22:59:45] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-01-11 23:02:19] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-01-11 23:02:20] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 

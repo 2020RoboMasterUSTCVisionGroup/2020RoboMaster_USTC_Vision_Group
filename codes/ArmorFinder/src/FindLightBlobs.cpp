@@ -76,16 +76,22 @@ static bool isValidExtLightBolbsContour(const vector<cv::Point> &armor_contour_e
         return false;
 }
 static void getPosition(ArmorBoxes &boxes){
-    int data[4];
+    int data[8];
     for(auto &box:boxes){
-        double relative_x=box.getCenter().x-640;
-        double relative_y=box.getCenter().y-512;
-        data[0]=int(relative_x);
-        data[1]=int(relative_y);
-        data[2]=int(640);
-        data[3]=int(512);
-        //canTansfer(data);
-        cout<<"x"<<relative_x<<",y:"<<relative_y<<endl;
+        // double relative_x=box.getCenter().x-640;
+        // double relative_y=box.getCenter().y-512;
+        data[0]=int(box.getCenter().x)>>8;
+        data[1]=int(box.getCenter().x);
+        data[2]=int(box.getCenter().y)>>8;
+        data[3]=int(box.getCenter().y);
+
+        data[4]=int(640)>>8;
+        data[5]=int(640);
+        data[6]=int(512)>>8;
+        data[7]=int(512);
+
+        canTansfer(data);
+       // cout<<"x"<<relative_x<<",y:"<<relative_y<<endl;
     }
 }
 
@@ -115,6 +121,7 @@ bool findLightBolbsSJTU(Mat &input_img)
     cv::threshold(color_channel, src_bin_light, light_threshold, 255, CV_THRESH_BINARY); // 二值化对应通道，得到较亮的图片
     if (src_bin_light.empty()) {
         cout<<"src_bin_light fail"<<endl;
+        exit(0);
         return false;
     }
     imagePreProcess(src_bin_light);                                  // 对亮图片进行开闭运算

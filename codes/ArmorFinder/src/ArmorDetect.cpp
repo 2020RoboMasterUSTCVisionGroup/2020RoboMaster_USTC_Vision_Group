@@ -105,8 +105,8 @@
                 if ((max_x - min_x) / (max_y - min_y) < 0.8) continue;
                 if((max_x - min_x) / (max_y - min_y) > 1.5) continue;
                 
-                if(rect_left.height/rect_right.height>1.1
-                    ||rect_left.height/rect_right.height<0.9){
+                if(rect_left.height/rect_right.height>1.2
+                    ||rect_left.height/rect_right.height<0.8){
                     continue;
                 }
                 // if(abs(rect_left.y-rect_right.y)>1){
