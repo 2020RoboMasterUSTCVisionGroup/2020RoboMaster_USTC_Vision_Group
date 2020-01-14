@@ -48,10 +48,10 @@ all:$(TARGET)
 
 
 $(TARGET):$(OBJS)
-	$(CC) $(CFLAGS) $@ $^ $(addprefix -L,$(LIBSPATH)) $(addprefix -l,$(LIBS)) $(PKG) $(addprefix -I,$(INC))
+	$(CC) $(CFLAGS) $@ $^ $(addprefix -L,$(LIBSPATH)) $(addprefix -l,$(LIBS)) $(PKG) $(addprefix -I,$(INC)) -std=c++11
 
 %.o:%.cpp
-	$(CC) -c $^ $(CFLAGS) $@  $(addprefix -I,$(INC)) $(PKG)
+	$(CC) -c $^ $(CFLAGS) $@  $(addprefix -I,$(INC)) $(PKG) -std=c++11
 
 #---------------------------伪指令---------------------------------------------
 #clean操作，删除生成的文件和文件夹

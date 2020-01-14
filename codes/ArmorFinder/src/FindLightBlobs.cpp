@@ -7,7 +7,7 @@
 
 #include "ArmorFinder.h"
 #include "Preprocess.h"
-int canTansfer(int data[]);
+int canTansfer(unsigned char data[]);
 // 旋转矩形的长宽比
 static double lw_rate(const cv::RotatedRect &rect) {
     return rect.size.height > rect.size.width ?
@@ -75,20 +75,19 @@ static bool isValidExtLightBolbsContour(const vector<cv::Point> &armor_contour_e
     }
         return false;
 }
-static void getPosition(ArmorBoxes &boxes){
-    int data[8];
+static void getPosition(ArmorBoxes &boxes,Mat src){
+    unsigned char data[8];
     for(auto &box:boxes){
         // double relative_x=box.getCenter().x-640;
         // double relative_y=box.getCenter().y-512;
-        data[0]=int(box.getCenter().x)>>8;
-        data[1]=int(box.getCenter().x);
-        data[2]=int(box.getCenter().y)>>8;
-        data[3]=int(box.getCenter().y);
-
-        data[4]=int(640)>>8;
-        data[5]=int(640);
-        data[6]=int(512)>>8;
-        data[7]=int(512);
+        data[0]=(int(box.getCenter().x)>>8)&0xFF;
+        data[1]=(int(box.getCenter().x))&0xFF;
+        data[2]=(int(box.getCenter().y)>>8)&0xFF;
+        data[3]=(int(box.getCenter().y))&0xFF;
+        data[4]=((int((src.cols)/2))>>8)&0xFF;
+        data[5]=(int((src.cols)/2))&0xFF;
+        data[6]=((int((src.rows)/2))>>8)&0xFF;
+        data[7]=(int((src.rows)/2))&0xFF;
 
         canTansfer(data);
        // cout<<"x"<<relative_x<<",y:"<<relative_y<<endl;
@@ -204,7 +203,7 @@ bool findLightBolbsSJTU(Mat &input_img)
     cout<<"ArmorBoxes start"<<endl;
     ArmorBoxes boxes;
     matchArmorBoxes(input_img,light_blobs,boxes);
-    getPosition(boxes);
+    getPosition(boxes,input_img);
     showArmorBoxes("res",input_img,boxes);
     cout<<"showArmorBoxes over"<<endl;
     return  0;

@@ -105,6 +105,20 @@ int cameraInit()
         return -1;
     }
 
+	// 设置float型变量
+	// set IFloat variable
+    float fExposureTime = 70000;
+
+    nRet = MV_CC_SetFloatValue(handle, "ExposureTime", fExposureTime);
+    if (MV_OK == nRet)
+    {
+        printf("set exposure time OK!\n\n");
+    }
+    else
+    {
+        printf("set exposure time failed! nRet [%x]\n\n", nRet);
+    }
+
     // 开始取流
 	// start grab image
     nRet = MV_CC_StartGrabbing(handle);
