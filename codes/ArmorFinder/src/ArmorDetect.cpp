@@ -5,7 +5,7 @@
      * @qq:1010645265
      */
     // 判断两个灯条的角度差
-    static bool angelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
+    bool cangelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
                         light_blob_i.rect.angle - 90;
         float angle_j = light_blob_j.rect.size.width > light_blob_j.rect.size.height ? light_blob_j.rect.angle :
@@ -13,25 +13,25 @@
         return abs(angle_i - angle_j) < 20;
     }
     // 判断两个灯条的高度差
-    static bool heightJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
+    bool ArmorBox::heightJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         cv::Point2f centers = light_blob_i.rect.center - light_blob_j.rect.center;
         return abs(centers.y) < 30;
     }
     // 判断两个灯条的间距
-    static bool lengthJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
+    bool ArmorBox::lengthJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         double side_length;
         cv::Point2f centers = light_blob_i.rect.center - light_blob_j.rect.center;
         side_length = sqrt(centers.ddot(centers));
         return (side_length / light_blob_i.length < 10 && side_length / light_blob_i.length > 0.5);
     }
     // 判断两个灯条的长度比
-    static bool lengthRatioJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
+    bool ArmorBox::lengthRatioJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         return (light_blob_i.length / light_blob_j.length < 2.5
                 && light_blob_i.length / light_blob_j.length > 0.4);
     }
 
     /* 判断两个灯条的错位度，不知道英文是什么！！！ */
-    static bool CuoWeiDuJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
+    bool ArmorBox::CuoWeiDuJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
                         light_blob_i.rect.angle - 90;
         float angle_j = light_blob_j.rect.size.width > light_blob_j.rect.size.height ? light_blob_j.rect.angle :
@@ -46,7 +46,7 @@
         return abs(orientation.dot(p2p)) < 25;
     }
     // 判断装甲板方向
-    static bool boxAngleJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
+    bool ArmorBox::boxAngleJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
                         light_blob_i.rect.angle - 90;
         float angle_j = light_blob_j.rect.size.width > light_blob_j.rect.size.height ? light_blob_j.rect.angle :
@@ -58,7 +58,7 @@
         return (-120.0 < angle && angle < -60.0) || (60.0 < angle && angle < 120.0);
     }
     //判断是否为一对灯条
-    static bool isCoupleLight(const LightBlob &light_blob_i, const LightBlob &light_blob_j, uint8_t enemy_color) {
+    bool ArmorBox::isCoupleLight(const LightBlob &light_blob_i, const LightBlob &light_blob_j, uint8_t enemy_color) {
     return light_blob_i.blob_color == enemy_color &&
            light_blob_j.blob_color == enemy_color &&
            lengthRatioJudge(light_blob_i, light_blob_j) &&
@@ -69,7 +69,7 @@
            CuoWeiDuJudge(light_blob_i, light_blob_j);
 
     }
-     static bool isValidBolbpair(const cv::Rect2d rect_left , const cv::Rect2d rect_right){
+    bool ArmorBox::isValidBolbpair(const cv::Rect2d rect_left , const cv::Rect2d rect_right){
          double length=abs(rect_left.x-rect_right.x);
          double height=rect_left.height>rect_right.height?rect_right.height:rect_left.height;
          return length/height<2.5&&length/height>0.8;
@@ -86,7 +86,7 @@
         }
         for (int i = 0; i < light_blobs.size() - 1; i++) {
             for (int j = i + 1; j < light_blobs.size(); j++) {
-                if (!isCoupleLight(light_blobs.at(i), light_blobs.at(j), BLOB_RED)) {
+                if (!ArmorBox::isCoupleLight(light_blobs.at(i), light_blobs.at(j), BLOB_RED)) {
                     continue;
                 }
                
@@ -112,7 +112,7 @@
                 // if(abs(rect_left.y-rect_right.y)>1){
                 //     continue;
                 // }
-                if(!isValidBolbpair(rect_left,rect_right)){
+                if(!ArmorBox::isValidBolbpair(rect_left,rect_right)){
                     continue;
                 }
                 LightBlobs pair_blobs = {light_blobs.at(i), light_blobs.at(j)};
