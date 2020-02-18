@@ -8,10 +8,10 @@
 #include "ArmorFinder.h"
 using namespace cv;
 using namespace std;
-//参数配置
+//参数配置,key
 bool show_armor_box = true;
-bool show_armor_boxes = true;
-bool show_light_blobs = true;
+bool show_armor_boxes = false;
+bool show_light_blobs = false;
 bool show_origin = false;
 bool run_with_camera = false;
 bool save_video = false;
@@ -30,34 +30,28 @@ bool AutoAiming::findArmorBoxTop(cv::Mat &srcImage,cv::Mat &processImage,ArmorBo
     box.rect = cv::Rect2d(0,0,0,0);
     box.id=-1;
     //寻找所有的灯条
-    cout<<"find bolbs start"<<endl;
     if(!findLightBolbsSJTU(srcImage,processImage,light_blobs))
     {
-        cout<<"find less than 1 blobs"<<endl;
         return false;
     }
-    cout<<"find bolbs end"<<endl;
+ 
     //显示所有的灯条
-    // cout<<"Blobs after choose "<<light_blobs.size()<<endl;
-    // if (show_light_blobs && state==SEARCHING_STATE) 
-    // {
-    //    drawLightBlobs(srcImage,light_blobs);
-    // }
+    if (show_light_blobs && state==SEARCHING_STATE) 
+    {
+       drawLightBlobs(srcImage,light_blobs);
+    }
+
     // 对灯条进行匹配得出装甲板候选区
-    cout<<"find box start"<<endl;
     if(!matchArmorBoxes(processImage,light_blobs,armor_boxes))
     {
-        //cout<<"armorbox detected"<<endl;
-        //cout<<"draw armorbox"<<endl;
         return false;
-        //显示所有装甲板
     }
-    
+    //显示所有装甲板
     if (show_armor_boxes && state==SEARCHING_STATE) 
     {
-        cout<<"box is "<<armor_boxes.size()<<endl;
         showArmorBoxes("boxes", srcImage, armor_boxes);
     }
+    //choose the first armorbox as the target box
     box = armor_boxes[0];
     if (box.rect == cv::Rect2d(0, 0, 0, 0)) 
     {

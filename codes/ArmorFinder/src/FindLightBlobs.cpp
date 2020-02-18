@@ -139,9 +139,7 @@ bool AutoAiming::findLightBolbsSJTU(cv::Mat &input_img,cv::Mat &processImage,Lig
     int dim_threshold = 140;                  //设定暗图片阈值  
     int enemy_color = ENEMY_RED;                //敌人为红 
 
-    cout<<"bolb start"<<endl;
     blobParamInit(blob_parament);
-    cout<<"bolb end"<<endl;
 
     if(enemy_color == ENEMY_BLUE){
         color_channel = channels[0];        //蓝色通道是1

@@ -45,15 +45,17 @@ int main(int argc, char *argv[], char **env)
         }
         }
         cout<<"--------------A frame start!-------------------"<<endl;
-        cout<<"row:"<<g_srcImage.rows<<endl;
-        cout<<"col:"<<g_srcImage.cols<<endl;
-        // namedWindow("g_srcImage",0);
-        // resizeWindow("g_srcImage",600,400);
+        // cout<<"row:"<<g_srcImage.rows<<endl;
+        // cout<<"col:"<<g_srcImage.cols<<endl;
+        namedWindow("g_srcImage",0);
+        resizeWindow("g_srcImage",600,400);
         g_processImage = g_srcImage.clone();
+
         g_preprocess.run(g_processImage); 
         auto_aiming.run(g_srcImage,g_processImage);
-        // imshow("g_srcImage",g_srcImage);
-        // waitKey(1);
+        
+        imshow("g_srcImage",g_srcImage);
+        waitKey(1);
         cout<<"--------------A frame end!---------------------"<<endl;
         // if( lightBox(g_srcImage) == 1 );
         //energy(g_srcImage);

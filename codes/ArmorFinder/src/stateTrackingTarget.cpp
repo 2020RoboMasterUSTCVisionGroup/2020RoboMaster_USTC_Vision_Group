@@ -16,7 +16,6 @@ bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage)
     if(!tracker->update(srcImage, pos)){ // 使用KCFTracker进行追踪
         //追踪失败
         target_box = ArmorBox();
-        //LOGW("Track fail!");
         cout<<"Track fail!"<<endl;
         return false;
     }

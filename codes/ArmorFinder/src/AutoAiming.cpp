@@ -9,7 +9,7 @@ void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
     switch(state)
     {
         case SEARCHING_STATE: 
-            cout<<"SEARCHING State start!"<<endl;
+            //cout<<"SEARCHING State start!"<<endl;
             if( stateSearchingTarget(g_srcImage,g_processImage) )
             {
                 //调高曝光

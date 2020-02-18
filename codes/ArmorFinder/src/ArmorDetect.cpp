@@ -121,8 +121,6 @@
                 );
             }
         }
-
-
     return !armor_boxes.empty();
     }
     //在src上将灯条框出
