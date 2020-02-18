@@ -7,9 +7,28 @@
 #include<opencv2/opencv.hpp>
 #include<string>
 #include <Eigen/Core>
-
+#include "opencv2/imgproc/imgproc.hpp"
+#include <opencv2/tracking.hpp>
 using namespace std;
 using  namespace cv;
+//----------------------------------------------------------------------------------------------------------------------
+// 此结构体包括灯条参数
+// ---------------------------------------------------------------------------------------------------------------------
+struct BlobPartParam 
+{
+	int RED_GRAY_THRESH;
+	int BLUE_GRAY_THRESH;
+	int SPLIT_GRAY_THRESH;
+    long BLOB_CONTOUR_AREA_MAX;//装甲板面积最大值
+	long BLOB_CONTOUR_AREA_MIN;//装甲板面积最小值
+	long BLOB_CONTOUR_LENGTH_MIN;//装甲板长边长度最小值
+	long BLOB_CONTOUR_WIDTH_MIN;//装甲板长边长度最大值
+	long BLOB_CONTOUR_LENGTH_MAX;//装甲板宽边长度最小值
+	long BLOB_CONTOUR_WIDTH_MAX;//装甲板宽边长度最大值
+	float BLOB_CONTOUR_HW_RATIO_MAX;//装甲板长宽比最大值
+	float BLOB_CONTOUR_HW_RATIO_MIN;//装甲板长宽比最小值
+	float BLOB_CONTOUR_AREA_RATIO_MIN;//装甲板轮廓占旋转矩形面积比最小值
+};
 /******************* 灯条类定义 ***********************/
 class LightBlob {
 public:
@@ -34,7 +53,8 @@ public:
     LightBlobs light_blobs;
     uint8_t box_color;
     int id;
-    ArmorBox(const cv::Rect &pos, const LightBlobs &blobs, uint8_t color):rect(pos),light_blobs(blobs),box_color(color){};
+    ArmorBox(const cv::Rect &pos=cv::Rect2d(), const LightBlobs &blobs=LightBlobs(), uint8_t color=1)
+    :rect(pos),light_blobs(blobs),box_color(color){};
 
     // 获取装甲板中心点
     cv::Point2f getCenter() const {
@@ -53,6 +73,7 @@ public:
             return 0;
         }
     }
+
     // 判断两个灯条的角度差
     static bool angelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j);
     // 判断两个灯条的高度差
@@ -76,16 +97,43 @@ public:
 };
 typedef std::vector<ArmorBox> ArmorBoxes;
 
+//
+/********************* 自瞄类定义 **********************/
+class AutoAiming{
+private:       
+    cv::Ptr<cv::Tracker> tracker;                       // tracker对象实例
+    ArmorBox target_box, last_box;  //目标装甲板 上一个装甲板
+    int tracking_cnt;
+    int contour_area;                                   // 装甲区域亮点个数，用于数字识别未启用时判断是否跟丢（已弃用）
+
+    //函数
+    bool stateTrackingTarget(cv::Mat &src);
+    bool findArmorBoxTop(cv::Mat &g_srcImage,cv::Mat &g_processImage,ArmorBox &target_box);
+    bool stateSearchingTarget(cv::Mat &g_srcImage,cv::Mat &g_processImage);
+    bool stateTrackingTarget(cv::Mat &g_srcImage,cv::Mat &g_processImage);
+    bool findLightBolbsSJTU(cv::Mat &g_srcImage,cv::Mat &g_processImage,LightBlobs &light_blobs);
+    bool matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes);
+    void drawLightBlobs(cv::Mat &g_srcImage, const LightBlobs &blobs);
+    void showLightBlobs(const cv::Mat &input_image,string windows_name,const LightBlobs &light_blobs);
+    void showArmorBoxes(std::string windows_name, const cv::Mat &src, const ArmorBoxes &armor_boxes);
+    void showArmorBox(std::string windows_name, const cv::Mat &g_srcImage, const cv::Rect2d &armor_box);
+public:
+    //战车状态定义
+    typedef enum{
+        SEARCHING_STATE, TRACKING_STATE, STANDBY_STATE
+    } State;
+    State state;
+
+    void run(cv::Mat &g_srcImage,cv::Mat &g_processImage);
+};
 //此处为灯条颜色，对应通道分离可按照此处更改
 #define BLOB_RED 1
 #define BLOB_BLUE 0
+#define ENEMY_RED 1
+#define ENEMY_BLUE 0
 /**
  * 此处函数可单独建立一个控制流程的类封装，
  * 将lightbolbs以及armorbox的对象也存放在该类中
  * */
-bool findLightBolbsSJTU(Mat &input_img);
 bool findLightBolbsCSDN(Mat &input_img);
-void showLightBlobs(const cv::Mat &input_image,string windows_name,const LightBlobs &light_blobs);
-bool matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes);
-void showArmorBoxes(std::string windows_name, const cv::Mat &src, const ArmorBoxes &armor_boxes);
 #endif _ARMOR_FINDER_H_ 

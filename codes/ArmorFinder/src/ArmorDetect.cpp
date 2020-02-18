@@ -5,7 +5,7 @@
      * @qq:1010645265
      */
     // 判断两个灯条的角度差
-    bool cangelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
+    bool ArmorBox::angelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
         float angle_i = light_blob_i.rect.size.width > light_blob_i.rect.size.height ? light_blob_i.rect.angle :
                         light_blob_i.rect.angle - 90;
         float angle_j = light_blob_j.rect.size.width > light_blob_j.rect.size.height ? light_blob_j.rect.angle :
@@ -79,11 +79,8 @@
      * @para:src:一帧图像,light_bolbs:灯条存储vector，armor_boxes:装甲板存储vector，匹配到的装甲板存储到此处
      * 
      **/
- bool matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes){
+ bool AutoAiming::matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes){
         armor_boxes.clear();
-        if(light_blobs.size()==0){
-            return false;
-        }
         for (int i = 0; i < light_blobs.size() - 1; i++) {
             for (int j = i + 1; j < light_blobs.size(); j++) {
                 if (!ArmorBox::isCoupleLight(light_blobs.at(i), light_blobs.at(j), BLOB_RED)) {
@@ -101,20 +98,20 @@
                 if (min_x < 0 || max_x > src.cols || min_y < 0 || max_y > src.rows) {
                     continue;
                 }
-                if ((max_y + min_y) / 2 < 120) continue;
+                // if ((max_y + min_y) / 2 < 120) continue;
                 if ((max_x - min_x) / (max_y - min_y) < 0.8) continue;
-                if((max_x - min_x) / (max_y - min_y) > 1.5) continue;
+                // if((max_x - min_x) / (max_y - min_y) > 1.5) continue;
                 
-                if(rect_left.height/rect_right.height>1.2
-                    ||rect_left.height/rect_right.height<0.8){
-                    continue;
-                }
+                // if(rect_left.height/rect_right.height>1.2
+                //     ||rect_left.height/rect_right.height<0.8){
+                //     continue;
+                // }
                 // if(abs(rect_left.y-rect_right.y)>1){
                 //     continue;
                 // }
-                if(!ArmorBox::isValidBolbpair(rect_left,rect_right)){
-                    continue;
-                }
+                // if(!ArmorBox::isValidBolbpair(rect_left,rect_right)){
+                //     continue;
+                // }
                 LightBlobs pair_blobs = {light_blobs.at(i), light_blobs.at(j)};
                
                 armor_boxes.emplace_back(
@@ -129,8 +126,7 @@
     return !armor_boxes.empty();
     }
     //在src上将灯条框出
-     void drawLightBlobs(cv::Mat &src, const LightBlobs &blobs){
-
+     void AutoAiming::drawLightBlobs(cv::Mat &src, const LightBlobs &blobs){
         for (const auto &blob:blobs) {
             Scalar color(0,255,0);
             if (blob.blob_color == BLOB_RED)
@@ -145,7 +141,7 @@
         }
     }
     //在src上将装甲板框出
-    void showArmorBoxes(std::string windows_name, const cv::Mat &src, const ArmorBoxes &armor_boxes) {
+    void AutoAiming::showArmorBoxes(std::string windows_name, const cv::Mat &src, const ArmorBoxes &armor_boxes) {
         static Mat image2show;
         if (src.type() == CV_8UC1) {// 黑白图像
             cvtColor(src, image2show, COLOR_GRAY2RGB);
@@ -156,12 +152,31 @@
         for (auto &box:armor_boxes) {
             if(box.box_color == BLOB_BLUE) {
                 rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
-                drawLightBlobs(image2show, box.light_blobs);
+                //drawLightBlobs(image2show, box.light_blobs);
             }else if(box.box_color == BLOB_RED){
+                cout<<"draw the box"<<endl;
                 rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
-                drawLightBlobs(image2show, box.light_blobs);
+                //drawLightBlobs(image2show, box.light_blobs);
             }
         }
+        namedWindow(windows_name,0);
+        resizeWindow(windows_name,600,400);
         imshow(windows_name, image2show);
-        waitKey(10);
+        waitKey(1);
+    }
+    void AutoAiming::showArmorBox(std::string windows_name, const cv::Mat &g_srcImage, const cv::Rect2d &armor_box) {
+        
+        static Mat image2show4box;
+        if (g_srcImage.type() == CV_8UC1) {// 黑白图像
+            cvtColor(g_srcImage, image2show4box, COLOR_GRAY2RGB);
+        } else if (g_srcImage.type() == CV_8UC3) { //RGB 彩色
+            image2show4box = g_srcImage.clone();
+        }
+
+
+        rectangle(image2show4box, armor_box, Scalar(0, 255, 0), 1);
+        namedWindow(windows_name,0);
+        resizeWindow(windows_name,600,400);
+        imshow(windows_name, image2show4box);
+        waitKey(1);
     }

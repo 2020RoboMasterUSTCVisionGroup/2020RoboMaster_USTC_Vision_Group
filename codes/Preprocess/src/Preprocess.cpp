@@ -9,6 +9,7 @@
 void Preprocess::run(cv::Mat &src)
 {
     clearWhiteLight(src);
+    cvtColor(src, src, COLOR_GRAY2RGB);     //将黑白图像转换成三通道
 }
 
 void Preprocess::clearWhiteLight(Mat &src)
