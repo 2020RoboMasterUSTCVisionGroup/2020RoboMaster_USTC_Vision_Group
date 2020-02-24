@@ -6,6 +6,7 @@
 
 #include "Preprocess.h"
 
+char EnemyColor='r';
 void Preprocess::run(cv::Mat &src)
 {
     clearWhiteLight(src);
@@ -21,7 +22,11 @@ void Preprocess::clearWhiteLight(Mat &src)
     { 
         src_red = channels[2];             /*将红色提出来，红色是第三个通道*/   
         src_blue = channels[0];            /*将蓝色提出来，红色是第一个通道*/  
-    }  
-    addWeighted(src_red, 1, src_blue,-1, 0.0, src);     //将两张图片按比例合成一张图片
+    } 
+        if(EnemyColor=='r')
+        addWeighted(src_red, 1, src_blue,-1, 0.0, src);     //将两张图片按比例合成一张图片
+        else 
+        addWeighted(src_red, -1, src_blue,1, 0.0, src);     //蓝减红        
+        
     }
 }
