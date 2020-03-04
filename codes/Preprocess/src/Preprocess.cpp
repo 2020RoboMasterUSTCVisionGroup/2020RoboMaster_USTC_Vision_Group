@@ -13,9 +13,9 @@ void Preprocess::run(cv::Mat &src)
 {
     clearWhiteLight(src);
     cvtColor(src, src, COLOR_GRAY2RGB);     //将黑白图像转换成三通道
-    adaptiveThreshold(src,src, 255, CV_ADAPTIVE_THRESH_MEAN_C, CV_THRESH_BINARY_INV, blockSize, constValue);//自适应阈值法二值化
-    uchar thresh=Otsu(src);
-    threshold(src,src,thresh,255,CV_THRESH_OTSU);
+    // adaptiveThreshold(src,src, 255, CV_ADAPTIVE_THRESH_MEAN_C, CV_THRESH_BINARY_INV, blockSize, constValue);//自适应阈值法二值化
+    // uchar thresh=Otsu(src);
+    // threshold(src,src,thresh,255,CV_THRESH_OTSU);
 }
 
 

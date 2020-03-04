@@ -96,6 +96,47 @@ public:
     // bool operator<(const ArmorBox &box) const; // 装甲板优先级比较
 };
 typedef std::vector<ArmorBox> ArmorBoxes;
+/******************
+ * kalman
+ * */
+class Kalman{
+	private:
+		const int stateNum=4;                                      //状态值4×1向量(x,y,△x,△y)
+	    const int measureNum=2;                                    //测量值2×1向量(x,y)	
+		KalmanFilter KF ;	
+		Mat prediction;
+		Mat measurement ;  
+		Point predict_pt ;
+	public:
+        Kalman(){
+			this->KF=KalmanFilter(stateNum, measureNum, 0);
+			this->KF.transitionMatrix = (Mat_<float>(4, 4) <<1,0,1,0,0,1,0,1,0,0,1,0,0,0,0,1);  //转移矩阵A
+			
+
+			setIdentity(KF.measurementMatrix);                                             //测量矩阵H
+			setIdentity(KF.processNoiseCov, Scalar::all(1e-5));                            //系统噪声方差矩阵Q
+			setIdentity(KF.measurementNoiseCov, Scalar::all(1e-1));                        //测量噪声方差矩阵R
+			setIdentity(KF.errorCovPost, Scalar::all(1));                                  //后验错误估计协方差矩阵P
+			//rng.fill(K input(200,300);ePost,RNG::UNIFORM,0,winHeight>winWidth?winWidth:winHeight);   //初始状态值x(0)
+			randn(KF.statePost, Scalar::all(0), Scalar::all(0.1));
+		}
+		Point predict(Point input){
+		    this->measurement=Mat::zeros(measureNum, 1, CV_32F); 
+			this->prediction=this->KF.predict();
+			this->predict_pt= Point(this->prediction.at<float>(0),this->prediction.at<float>(1) );   //预测值(x',y')
+			//3.update measurement
+			measurement.at<float>(0) = (float)input.x;
+			measurement.at<float>(1) = (float)input.y;		
+			//4.update
+			KF.correct(measurement);
+
+			// cout<<"point:"<<input.x<<","<<input.y<<endl;
+			// cout<<"predit_point:"<<predict_pt.x<<","<<predict_pt.y<<endl;
+            return Point(predict_pt.x,predict_pt.y);
+		}
+
+};
+
 
 //
 /********************* 自瞄类定义 **********************/
@@ -123,6 +164,7 @@ public:
         SEARCHING_STATE, TRACKING_STATE, STANDBY_STATE
     } State;
     State state;
+    Kalman *kf;
 
     void run(cv::Mat &g_srcImage,cv::Mat &g_processImage);
 };

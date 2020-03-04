@@ -51,22 +51,22 @@ class Kalman{
 
 		//2.kalman prediction
 
- int main()
-//Point kaermanPredict(Point &input)
-{
-    Point  input(200,300);
-	Kalman *kf;  
-	kf=new Kalman();
-    int c=100;
-	while(c){
-		input.x=200-c;
-		input.y=300-c;
-		kf->predict(input);
-		c--;
+//  int main()
+// //Point kaermanPredict(Point &input)
+// {
+//     Point  input(200,300);
+// 	Kalman *kf;  
+// 	kf=new Kalman();
+//     int c=100;
+// 	while(c){
+// 		input.x=200-c;
+// 		input.y=300-c;
+// 		kf->predict(input);
+// 		c--;
 		
-	}
-	return 0;
-}
+// 	}
+// 	return 0;
+// }
 	//1.kalman filter setup
 	//RNG rng;
 

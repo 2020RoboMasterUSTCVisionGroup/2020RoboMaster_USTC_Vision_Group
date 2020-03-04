@@ -19,6 +19,12 @@ bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage)
         cout<<"Track fail!"<<endl;
         return false;
     }
+    cv::circle(srcImage,Point(pos.x + pos.width / 2,pos.y + pos.height / 2),
+                5,cv::Scalar(0,0,255),2);
+    
+    Point predict=kf->predict(Point(pos.x + pos.width / 2,pos.y + pos.height / 2));
+    cv::circle(srcImage,predict,5,cv::Scalar(0,255,255),2);
+
     showArmorBox("tracker", srcImage, pos);
     //追踪出界
     if((pos & cv::Rect2d(0, 0, 1920, 1200)) != pos){
@@ -75,8 +81,8 @@ bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage)
         return false;
     }
     return true;
-    //namedWindow("ROI",0);
-    //resizeWindow("ROI",600,400);
-    //imshow("ROI", roi);
-    //waitKey(0);
+    // namedWindow("ROI",0);
+    // resizeWindow("ROI",600,400);
+    // imshow("ROI", roi);
+    // waitKey(0);
 }

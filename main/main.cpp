@@ -12,6 +12,8 @@ int main(int argc, char *argv[], char **env)
 	systemInit();
     Mat g_srcImage,g_processImage;
     AutoAiming auto_aiming;
+    auto_aiming.state = AutoAiming::State::SEARCHING_STATE;
+    // auto_aiming.kf=new Kalman();
     while(1)
     {
         switch(g_source_type)
