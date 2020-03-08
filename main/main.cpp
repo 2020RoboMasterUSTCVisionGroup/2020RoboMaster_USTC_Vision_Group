@@ -94,7 +94,7 @@ void systemInit()
     }
     else
     {
-        g_capture.open("../material/video/rmvideo.MOV");//视频文件
+        g_capture.open("../material/video/rmvideodark.MOV");//视频文件
         //视频读取
     }
 }

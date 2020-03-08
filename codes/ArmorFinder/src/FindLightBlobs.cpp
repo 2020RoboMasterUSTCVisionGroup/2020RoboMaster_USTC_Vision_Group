@@ -25,6 +25,22 @@ static bool isValidLightBlob(const std::vector<cv::Point> &contour, const cv::Ro
            ((rect.size.area() < 50 && areaRatio(contour, rect) > 0.4) ||
             (rect.size.area() >= 50 && areaRatio(contour, rect) > 0.6));
 }
+static bool isValidLightBlobV2(const std::vector<cv::Point> &contour, const cv::RotatedRect &rect, BlobPartParam blob_parament) 
+{
+    Size2f cur_size = rect.size;
+    float length = cur_size.height > cur_size.width ? cur_size.height : cur_size.width;//将矩形的长边设置为长
+    float width = cur_size.height < cur_size.width ? cur_size.height : cur_size.width;//将矩形的短边设置为宽
+
+
+    float length_width_ratio = length / width;//计算矩形长宽比
+    if (length_width_ratio > blob_parament.BLOB_CONTOUR_HW_RATIO_MAX ||
+        length_width_ratio < blob_parament.BLOB_CONTOUR_HW_RATIO_MIN) {
+        //cout<<"length width ratio fail."<<endl;
+//        cout << "HW: " << length_width_ratio << '\t' << cur_rect.center << endl;
+        return false;
+        //长宽比不合适
+        }
+}
 // 判断灯条颜色(此函数可以有性能优化).
 static uint8_t get_blob_color(const cv::Mat &src, const cv::RotatedRect &blobPos) {
     auto region = blobPos.boundingRect();
