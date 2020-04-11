@@ -8654,3 +8654,166 @@ Warning 2020-01-13 09:36:42  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMv
 Warning 2020-01-13 09:36:42  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L0691)     Description:[GetOneNodeData] PreFrameNum[6973], CurFrameNum[6975]     Solution:
 Warning 2020-01-13 09:36:42  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1311)     Description:Delete one DataNode     Solution:Please confirm that there is a blocking operation when you grab frame
 Warning 2020-01-13 09:36:42  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L0691)     Description:[GetOneNodeData] PreFrameNum[6976], CurFrameNum[6978]     Solution:
+[2020-04-01 20:27:37] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:27:38] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-04-01 20:27:38] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:38] |    StreamProcess.cpp-L0541: nFrameNum[0] pstFrameInfo->nFrameNum[2]
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:40] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:27:41] |    StreamProcess.cpp-L0541: nFrameNum[26] pstFrameInfo->nFrameNum[48]
+[2020-04-01 20:28:01] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:01] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:01] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:01] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:02] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:02] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:02] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:02] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:03] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:03] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:03] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:03] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:04] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:04] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:04] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:04] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:05] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:05] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:05] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:05] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:06] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:06] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:06] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:06] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:07] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:07] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:07] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:07] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:08] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:08] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:08] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:08] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:09] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:09] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:09] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:09] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:10] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:10] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:10] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:10] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:11] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:11] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:11] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:11] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:12] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:12] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:12] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:12] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:13] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:13] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:13] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:13] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:14] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:14] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:14] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:14] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:15] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:15] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:15] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:15] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:16] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:16] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:16] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:16] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:17] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:17] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:17] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:17] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:18] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:18] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:18] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:18] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:19] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:19] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:19] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-4], LIBUSB_ERROR_NO_DEVICE
+[2020-04-01 20:28:19] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-4] nSendLen:[28]
+[2020-04-01 20:28:56] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:28:56] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-04-01 20:29:38] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:29:38] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:29:38] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-1] nSendLen:[28]
+[2020-04-01 20:29:38] |      DriverLayer.cpp-L0766: [libusb_bulk_transfer] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:29:38] |    DeviceControl.cpp-L0616: [ReadMemUnit]: nLen < nPreMinRecvLen: nLen:[-1] nPreMinRecvLen:[16]
+[2020-04-01 20:29:38] |    DeviceControl.cpp-L0989: get U3V_REG_MaxDeviceResponseTime error
+[2020-04-01 20:29:38] |          Manager.cpp-L0329: [ConnectDevice] Fail
+[2020-04-01 20:29:38] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:29:39] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-04-01 20:29:39] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:29:39] |    StreamProcess.cpp-L0541: nFrameNum[0] pstFrameInfo->nFrameNum[2]
+[2020-04-01 20:29:57] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:29:57] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:29:57] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-1] nSendLen:[28]
+[2020-04-01 20:29:57] |      DriverLayer.cpp-L0766: [libusb_bulk_transfer] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:29:57] |    DeviceControl.cpp-L0616: [ReadMemUnit]: nLen < nPreMinRecvLen: nLen:[-1] nPreMinRecvLen:[16]
+[2020-04-01 20:29:57] |    DeviceControl.cpp-L0989: get U3V_REG_MaxDeviceResponseTime error
+[2020-04-01 20:29:57] |          Manager.cpp-L0329: [ConnectDevice] Fail
+[2020-04-01 20:29:57] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:29:58] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-04-01 20:30:19] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:30:20] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-04-01 20:35:09] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:35:09] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:35:09] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-1] nSendLen:[28]
+[2020-04-01 20:35:09] |      DriverLayer.cpp-L0766: [libusb_bulk_transfer] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:35:09] |    DeviceControl.cpp-L0616: [ReadMemUnit]: nLen < nPreMinRecvLen: nLen:[-1] nPreMinRecvLen:[16]
+[2020-04-01 20:35:09] |    DeviceControl.cpp-L0989: get U3V_REG_MaxDeviceResponseTime error
+[2020-04-01 20:35:09] |          Manager.cpp-L0329: [ConnectDevice] Fail
+[2020-04-01 20:35:09] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:35:10] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-04-01 20:35:10] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:10] |    StreamProcess.cpp-L0541: nFrameNum[3] pstFrameInfo->nFrameNum[5]
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L0541: nFrameNum[13] pstFrameInfo->nFrameNum[16]
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L0541: nFrameNum[16] pstFrameInfo->nFrameNum[18]
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L0541: nFrameNum[18] pstFrameInfo->nFrameNum[20]
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:11] |    StreamProcess.cpp-L0541: nFrameNum[21] pstFrameInfo->nFrameNum[23]
+[2020-04-01 20:35:12] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:12] |    StreamProcess.cpp-L0541: nFrameNum[24] pstFrameInfo->nFrameNum[26]
+[2020-04-01 20:35:20] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:35:21] |      DriverLayer.cpp-L0827: [usb_bulk_write] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:35:21] |    DeviceControl.cpp-L0591: [ReadMemUnit]: nLen < nSendLen nLen:[-1] nSendLen:[28]
+[2020-04-01 20:35:21] |      DriverLayer.cpp-L0766: [libusb_bulk_transfer] errcode[-1], LIBUSB_ERROR_IO
+[2020-04-01 20:35:21] |    DeviceControl.cpp-L0616: [ReadMemUnit]: nLen < nPreMinRecvLen: nLen:[-1] nPreMinRecvLen:[16]
+[2020-04-01 20:35:21] |    DeviceControl.cpp-L0989: get U3V_REG_MaxDeviceResponseTime error
+[2020-04-01 20:35:21] |          Manager.cpp-L0329: [ConnectDevice] Fail
+[2020-04-01 20:35:21] |      DriverLayer.cpp-L0552: device speed: [4]
+[2020-04-01 20:35:21] |    DeviceControl.cpp-L1437: AcquisitionStart Execute Success 
+[2020-04-01 20:35:28] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:28] |    StreamProcess.cpp-L0541: nFrameNum[87] pstFrameInfo->nFrameNum[89]
+[2020-04-01 20:35:31] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:31] |    StreamProcess.cpp-L0541: nFrameNum[139] pstFrameInfo->nFrameNum[141]
+[2020-04-01 20:35:33] |    StreamProcess.cpp-L1471: delete one DataNode
+[2020-04-01 20:35:33] |    StreamProcess.cpp-L0541: nFrameNum[163] pstFrameInfo->nFrameNum[165]

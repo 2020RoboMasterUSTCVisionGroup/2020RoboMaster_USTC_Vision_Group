@@ -1,19 +1,12 @@
-#include <stdio.h>
-#include <opencv2/opencv.hpp>
-#include<iostream>
-#include<vector>
-#include<string>
-
-
+#include "GetFeature.h"
 using namespace cv;
 using namespace std;
-
-Mat srcImage[90], testImage;
-float srcFeature[90][25];
+Mat testImage;
 float testFeature[25];
 int width,height,LineBytes;
 int bottom,top,zuo,you;
 
+float yangben_Feature[24][25]={0};
 //提取图像特征
 void getFeature(Mat m,float a[25])
 {
@@ -22,15 +15,16 @@ void getFeature(Mat m,float a[25])
     bool flag;
     //转为灰度图
     cvtColor(m,m,COLOR_RGB2GRAY);
+    
     //转化为二值图像
     threshold(m,m,100,255,THRESH_BINARY);//若要用该函数实现反色，可将THRESH_BINARY改为THRESH_BINARY_INV
     //cout<<"第一个点的值为："<<(int)m.at<uchar>(1)<<endl;
-    
-   
+    //cout<<"read file "<<" type is "<<m.type()<<endl;
+    //
     //图像反色
     bitwise_not(m,m);
-
-
+    imshow("number_hioghpo", m);
+    waitKey(1);
     //寻找数字部分的上下左右坐标值：
     width = m.cols;
     height = m.rows;
@@ -97,7 +91,6 @@ void getFeature(Mat m,float a[25])
                 break;
             }
         }
-        if(flag)
         {
             break;
         }
@@ -106,13 +99,18 @@ void getFeature(Mat m,float a[25])
     M = you-zuo;//找到的区域的宽
     N = top-bottom;//找到的区域的高
 
-
-    float jef_x,jef_y;
+    //计算图片的宽和高
+    /*top = 0;
+    zuo = 0;
+    bottom = m.rows;
+    you = m.cols;
+**/
+    int jef_x,jef_y;
     for( i = 0 ; i < 25; i++)
     {
         a[i] = 0;
     }
-
+    //cout<<"M = "<<M<<"; N = "<< N <<endl;
     //将找到的区域划分为5x5个子块，计算每子块内像素值的和
     for( i =bottom; i < top; i++)
     {
@@ -145,82 +143,72 @@ float ouDistance(float a[25], float b[25])
         distance+=(a[i]-b[i])*(a[i]-b[i]);
     }
     //对上述计算结果开根号
-    distance = sqrt(distance);
-    return distance;
+    return sqrt(distance);
 }
 //计算数字识别
-int getResultNumber()
+int getResultNumber(cv::Mat roi_armor_ostu)
 {
 
     int i,j,k;
     float min;  //用来储存最小欧式距离
     int mini;   // 用来储存最小的欧式距离的数字号
-    testImage = imread("83.jpg");//*******此处读取待识别图像
+    testImage = roi_armor_ostu;//*******此处读取待识别图像
     getFeature(testImage, testFeature);  
+    //cout<<"testFeature "<<i<<"is "<<ouDistanceValue[count_ou]<<endl;
+    /*for(i = 0; i < 25; i++)
+    {
+        cout<<testFeature[i]<<" to "<<yangben_Feature[3][i]<<endl;
+    }*/
     //获取测试图像的特征值，并将其放到testFeature数组内
     
-    for(i = 1; i < 9; i++)//在原例子上，i=0;i<10改成i=1;i<9
-    {
-        for(j=1;j<4;j++)
-        {
-            k=i*10+j;
-            string s = to_string(k) + ".jpg";//to_string(k)：将数值k转化为字符串，返回对应的字符串
-            srcImage[k] = imread(s);
-        }
-    }
-
-    //获取原始数字图像的特征值
-    for(i = 1;i < 9; i++)//在原例子上，i=0;i<10改成i=1;i<9
-    {
-        for(j=1;j<4;j++)
-        {
-            k=i*10+j;
-            getFeature(srcImage[k], srcFeature[k]);
-        }
-    }
-    for(i = 0; i < 25; i++)
-    {
-        cout<<testFeature[i]<<" to "<<srcFeature[11][i]<<endl;
-    }
-    float ouDistanceValue[90]={0};
+    //for(i = 0; i < 25; i++)
+    //{
+    //    cout<<testFeature[i]<<" to "<<srcFeature[11][i]<<endl;
+    //}
+    float ouDistanceValue[24]={0};
     //存储当前测试图像与已知的8*3=24个数字图像之间的欧式距离
+    int count_ou=0;
     for(i = 1; i < 9; i++)//在原例子上，i=0;i<10改成i=1;i<9
     {
         for(j=1;j<4;j++)
         {
-            k=i*10+j;
-            ouDistanceValue[k] = ouDistance(testFeature, srcFeature[k]);
+            ouDistanceValue[count_ou] = ouDistance(testFeature, yangben_Feature[count_ou]);
+            count_ou++;
+            //cout<<"Distance of yangben and "<<i<<"is "<<ouDistanceValue[count_ou]<<endl;
         }
     }
 
-    mini = 1;//在原例子上，0改成1
-    min = ouDistanceValue[11];//在原例子上，[0]改成[11]
+    mini = 0;//在原例子上，0改成1
+    min = ouDistanceValue[0];//在原例子上，[0]改成[11]
     //给min赋个初始值，假设与数字1的距离最小
+
+    count_ou=0;
     for(i = 1; i < 9; i++)//在原例子上，i=0;i<10改成i=1;i<9
     {
         for(j=1;j<4;j++)
         {
-            k=i*10+j;
-            if( min > ouDistanceValue[k])
+            if( min > ouDistanceValue[count_ou])
             {
-                min = ouDistanceValue[k];
+                //cout<<"Distance of yangben and "<<i<<" is "<<ouDistanceValue[count_ou]<<endl;
+                min = ouDistanceValue[count_ou];
                 mini = i;
             }
+            count_ou++;
         }
 
+    }
+    //剔除杂图
+    if(min > 2.0)
+    {
+        return 0;
     }
     return mini;
 }
 
-void on_showImage_triggered()
+int on_showImage_triggered(cv::Mat roi_armor_ostu)
 {
-    int mini = getResultNumber();
-    cout<<"识别该数字为："<<mini<<endl;
+    int mini = getResultNumber(roi_armor_ostu);
+    //cout<<"识别该数字为："<<mini<<endl;
+    return mini;
 }
 
-int main()
-{
-    cout<<"on_showImage_triggered"<<endl;
-    on_showImage_triggered();
-    return 0;
-}

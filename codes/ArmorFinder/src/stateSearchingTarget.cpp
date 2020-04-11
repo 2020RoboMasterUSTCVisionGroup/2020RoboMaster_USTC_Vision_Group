@@ -26,7 +26,6 @@ bool run_by_frame = false;
 bool AutoAiming::findArmorBoxTop(cv::Mat &srcImage,cv::Mat &processImage,ArmorBox &box)
 {
     LightBlobs light_blobs;
-    ArmorBoxes armor_boxes;
     box.rect = cv::Rect2d(0,0,0,0);
     box.id=-1;
     //寻找所有的灯条

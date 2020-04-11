@@ -348,3 +348,31 @@ Info    2020-01-13 09:28:31  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMv
 Info    2020-01-13 09:28:31  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1712)     Description:There is no registration callback     Solution:
 Info    2020-01-13 09:28:31  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L5390)     Description:CamCtrl Display Thread Start, ThreadId[-2030047536]     Solution:
 Info    2020-01-13 09:28:31  DevID:MV-CA013-20UC(00D62481097)  Source-Line:libMvCameraControl.so(CInterfaceManager.cpp-L1717)     Description:[MV_CC_StartGrabbing] return[0x0]     Solution:
+[2020-04-01 20:27:37] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2020-04-01 20:27:38] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2020-04-01 20:27:38] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[260040448]
+[2020-04-01 20:27:38] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[251647744]
+[2020-04-01 20:28:56] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2020-04-01 20:28:56] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2020-04-01 20:28:56] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1305974528]
+[2020-04-01 20:28:56] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1297581824]
+[2020-04-01 20:29:38] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2020-04-01 20:29:39] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2020-04-01 20:29:39] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-910166272]
+[2020-04-01 20:29:39] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-901773568]
+[2020-04-01 20:29:57] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2020-04-01 20:29:58] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2020-04-01 20:29:58] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1562478336]
+[2020-04-01 20:29:58] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1570871040]
+[2020-04-01 20:30:19] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2020-04-01 20:30:20] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2020-04-01 20:30:20] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1571309824]
+[2020-04-01 20:30:20] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1579702528]
+[2020-04-01 20:35:09] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2020-04-01 20:35:10] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2020-04-01 20:35:10] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[310363904]
+[2020-04-01 20:35:10] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[301971200]
+[2020-04-01 20:35:20] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2020-04-01 20:35:21] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [2623488]
+[2020-04-01 20:35:21] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1909700864]
+[2020-04-01 20:35:21] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1901308160]

@@ -47,6 +47,12 @@ int main(int argc, char *argv[], char **env)
         }
         }
         cout<<"--------------A frame start!-------------------"<<endl;
+        //进入追踪模式跳过三帧
+        if(auto_aiming.jump_state == 1 && auto_aiming.jump_state_count <3)
+        {
+            auto_aiming.jump_state_count++;
+            continue;
+        }
         // cout<<"row:"<<g_srcImage.rows<<endl;
         // cout<<"col:"<<g_srcImage.cols<<endl;
         namedWindow("g_srcImage",0);

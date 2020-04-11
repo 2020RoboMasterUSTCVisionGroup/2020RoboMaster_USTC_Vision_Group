@@ -18,4 +18,8 @@ int cameraExit();
 extern int nRet  ;
 extern void* handle ;
 
+//一帧数据大小
+extern int nBuffSize;
+extern unsigned char* pFrameBuf;            //相机位置
+extern float fExposureTime;
 #endif
