@@ -2,10 +2,11 @@
 
 using namespace cv;
 using namespace std;
-
+int canReceive();
 
 void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
-{
+{   
+    canReceive();
     switch(state)
     {
         case SEARCHING_STATE: 
@@ -48,7 +49,8 @@ void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
             cout<<"CLASSIFYING State start!"<<endl;
             if(numberClassifyRoi(g_srcImage, g_processImage))
             {
-                jump_state=1;jump_state_count=0;
+                jump_state=1;
+                jump_state_count=0;
                 //sleep(1);//延时1秒
                 //waitKey(1000);
                 //初始化追踪器
@@ -59,8 +61,6 @@ void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
                 //追踪帧数
                 tracking_cnt = 0;
             }
-            
-
             else
             {
                 state = SEARCHING_STATE;

@@ -5,7 +5,7 @@
 ------------------------------------------------------*/
 #include "main.h"
 //-----------------------主函数定义------------------------
-
+extern int canReceive();
 
 int main(int argc, char *argv[], char **env)
 {    	
@@ -13,7 +13,7 @@ int main(int argc, char *argv[], char **env)
     Mat g_srcImage,g_processImage;
     AutoAiming auto_aiming;
     auto_aiming.state = AutoAiming::State::SEARCHING_STATE;
-    // auto_aiming.kf=new Kalman();
+    thread receive(canReceive);
     while(1)
     {
         switch(g_source_type)
@@ -58,7 +58,6 @@ int main(int argc, char *argv[], char **env)
         namedWindow("g_srcImage",0);
         resizeWindow("g_srcImage",600,400);
         g_processImage = g_srcImage.clone();
-
         g_preprocess.run(g_processImage); 
         auto_aiming.run(g_srcImage,g_processImage);
         

@@ -15,6 +15,11 @@
 #include <unistd.h> 
 using namespace std;
 using  namespace cv;
+//此处为灯条颜色，对应通道分离可按照此处更改
+#define BLOB_RED 1
+#define BLOB_BLUE 0
+#define ENEMY_RED 1
+#define ENEMY_BLUE 0
 //----------------------------------------------------------------------------------------------------------------------
 // 此结构体包括灯条参数
 // ---------------------------------------------------------------------------------------------------------------------
@@ -155,6 +160,7 @@ private:
     ArmorBox box_search;
     int tracking_cnt;
     int contour_area;                                   // 装甲区域亮点个数，用于数字识别未启用时判断是否跟丢（已弃用）
+   
 
     //函数
     bool stateTrackingTarget(cv::Mat &src);
@@ -180,11 +186,7 @@ public:
     void run(cv::Mat &g_srcImage,cv::Mat &g_processImage);
     int jump_state = 0, jump_state_count = 0;
 };
-//此处为灯条颜色，对应通道分离可按照此处更改
-#define BLOB_RED 1
-#define BLOB_BLUE 0
-#define ENEMY_RED 1
-#define ENEMY_BLUE 0
+
 /**
  * 此处函数可单独建立一个控制流程的类封装，
  * 将lightbolbs以及armorbox的对象也存放在该类中

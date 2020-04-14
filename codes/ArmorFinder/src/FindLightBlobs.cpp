@@ -7,7 +7,7 @@
 
 #include "ArmorFinder.h"
 #include "Preprocess.h"
-int canTansfer(unsigned char data[]);
+
 // 旋转矩形的长宽比
 static double lw_rate(const cv::RotatedRect &rect) {
     return rect.size.height > rect.size.width ?
@@ -113,24 +113,6 @@ static bool isValidExtLightBolbsContour(const vector<cv::Point> &armor_contour_e
     }
         return false;
 }
-static void getPosition(ArmorBoxes &boxes,Mat src){
-    unsigned char data[8];
-    for(auto &box:boxes){
-        // double relative_x=box.getCenter().x-640;
-        // double relative_y=box.getCenter().y-512;
-        data[0]=(int(box.getCenter().x)>>8)&0xFF;
-        data[1]=(int(box.getCenter().x))&0xFF;
-        data[2]=(int(box.getCenter().y)>>8)&0xFF;
-        data[3]=(int(box.getCenter().y))&0xFF;
-        data[4]=((int((src.cols)/2))>>8)&0xFF;
-        data[5]=(int((src.cols)/2))&0xFF;
-        data[6]=((int((src.rows)/2))>>8)&0xFF;
-        data[7]=(int((src.rows)/2))&0xFF;
-
-        canTansfer(data);
-       // cout<<"x"<<relative_x<<",y:"<<relative_y<<endl;
-    }
-}
 
 /**
 *@author： 代成浩 戴浪
@@ -147,13 +129,13 @@ bool AutoAiming::findLightBolbsSJTU(cv::Mat &input_img,cv::Mat &processImage,Lig
     Mat color_channel;      //颜色通道   
     Mat src_bin_light, src_bin_dim; //亮源图和暗原图
     vector<Mat> channels;               //通道数
-    
+    extern int enemy_color;
     split(processImage, channels);         //通道拆分 
    
 
     int light_threshold = 200;                //设定亮图片阈值
     int dim_threshold = 140;                  //设定暗图片阈值  
-    int enemy_color = ENEMY_RED;                //敌人为红 
+    // int enemy_color = ENEMY_RED;                //敌人为红 
 
     blobParamInit(blob_parament);
 
@@ -242,7 +224,6 @@ bool AutoAiming::findLightBolbsSJTU(cv::Mat &input_img,cv::Mat &processImage,Lig
     for (const auto &dim : light_blobs_dim) {
         light_blobs.emplace_back(dim);                                    /*将light_blobs_dim中要剩余灯条全部存入light_blobs中*/
     }
-    // getPosition(boxes,input_img);
     return  light_blobs.size()>1;
     
 }

@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <thread>
 #include "MvCameraControl.h"
 
 //包含自制头文件
@@ -32,6 +33,8 @@ int g_source_type;
 VideoCapture g_capture;
 Mat g_srcImage;     //原图像每一帧
 Preprocess g_preprocess;    //初始化对象
+//default red
+volatile int enemy_color=BLOB_RED;
 
 //extern int nRet;    //相机状态定义
 //extern void* handle;    //
