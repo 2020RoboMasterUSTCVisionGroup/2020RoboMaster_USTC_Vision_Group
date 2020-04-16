@@ -2,11 +2,11 @@
 
 using namespace cv;
 using namespace std;
-int canReceive();
+
 
 void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
 {   
-    canReceive();
+    
     switch(state)
     {
         case SEARCHING_STATE: 

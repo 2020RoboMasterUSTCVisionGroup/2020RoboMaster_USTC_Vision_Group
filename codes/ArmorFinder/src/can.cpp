@@ -19,6 +19,7 @@
 
 int canTansfer(unsigned char data[])
 {
+	printf("SEND\n");
 	int s, nbytes;
 	struct sockaddr_can addr;
 	struct ifreq ifr;
@@ -63,9 +64,10 @@ int canTansfer(unsigned char data[])
 		}
 	 close(s);
 }
-// thread receive(canReceive);//开启串口接收线程
-int canReceive()
+
+void canReceive()
 {
+	printf("********************RECEIVE\n");
 	extern int enemy_color;
 	int s, nbytes;
 	char buffer[8];

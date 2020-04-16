@@ -5,7 +5,7 @@
 ------------------------------------------------------*/
 #include "main.h"
 //-----------------------主函数定义------------------------
-extern int canReceive();
+extern void canReceive();
 
 int main(int argc, char *argv[], char **env)
 {    	
@@ -13,7 +13,9 @@ int main(int argc, char *argv[], char **env)
     Mat g_srcImage,g_processImage;
     AutoAiming auto_aiming;
     auto_aiming.state = AutoAiming::State::SEARCHING_STATE;
+    //another thread to receive message
     thread receive(canReceive);
+    receive.detach();
     while(1)
     {
         switch(g_source_type)
@@ -99,7 +101,7 @@ void systemInit()
     }
     else
     {
-        g_capture.open("../material/video/rmvideodark.MOV");//视频文件
+        g_capture.open("../material/video/rmvideo.MOV");//视频文件
         //视频读取
     }
 }
