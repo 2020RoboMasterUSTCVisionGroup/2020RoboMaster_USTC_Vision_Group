@@ -13,7 +13,8 @@
 #include "Preprocess.h"
 #include "energy.h"
 #include "ArmorFinder.h"
-//#include "../others/Log/include/log.h"
+#include "options.h"   
+
 
 using namespace cv;
 using namespace std;
@@ -26,7 +27,8 @@ using namespace std;
 #define CAMERA_INIT_FAIL    0
 int lightBox(Mat image);
 void systemInit();
-
+extern void canReceive();
+extern int canTansfer(unsigned char handshake[]);
 //------------------------全局变量定义---------------------
 //变量定义阶段
 int g_source_type;
@@ -46,5 +48,7 @@ unsigned char* pFrameBuf = NULL;
 
 //相机参数
 MV_FRAME_OUT_INFO_EX stInfo;
+
+unsigned char handshake[]= "2020";
 
 #endif

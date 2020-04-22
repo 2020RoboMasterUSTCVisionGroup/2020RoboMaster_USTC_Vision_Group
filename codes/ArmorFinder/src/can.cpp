@@ -67,7 +67,7 @@ int canTansfer(unsigned char data[])
 
 void canReceive()
 {
-	printf("********************RECEIVE\n");
+	printf("RECEIVE BOOT\n");
 	extern int enemy_color;
 	int s, nbytes;
 	char buffer[8];

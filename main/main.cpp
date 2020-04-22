@@ -5,17 +5,26 @@
 ------------------------------------------------------*/
 #include "main.h"
 //-----------------------主函数定义------------------------
-extern void canReceive();
+
 
 int main(int argc, char *argv[], char **env)
 {    	
+    processOptions(argc, argv);             // 处理命令行参数
 	systemInit();
+
+    if(run_with_can){
+        //发送handshake包
+        for(int i = 0; i < 2; i++){
+        int res = canTansfer(handshake);
+        }
+    	
+        thread receive(canReceive);                       //开启线程接收数据
+        receive.detach();
+    }
     Mat g_srcImage,g_processImage;
     AutoAiming auto_aiming;
     auto_aiming.state = AutoAiming::State::SEARCHING_STATE;
-    //another thread to receive message
-    thread receive(canReceive);
-    receive.detach();
+
     while(1)
     {
         switch(g_source_type)
