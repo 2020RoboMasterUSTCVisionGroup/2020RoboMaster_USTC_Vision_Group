@@ -22,12 +22,15 @@ SOURCE_PREPOCESS_DIR=$(PREPOCESS_DIR)/src
 
 TOOLS_DIR=../codes/Tools
 SOURCE_TOOLS_DIR=$(TOOLS_DIR)/src
+
+CAN_DIR=../codes/Can
+SOURCE_CAN_DIR=$(CAN_DIR)/src
 #头文件
-INC := ./ ../codes/Number/include ../codes/ArmorFinder/include ../codes/Camera/include ../codes/Preprocess/include ../codes/Enegry/include ../codes/Tools/include 
+INC := ./ ../codes/Number/include ../codes/ArmorFinder/include ../codes/Camera/include ../codes/Preprocess/include ../codes/Enegry/include ../codes/Tools/include ../codes/Can/include
 #动态库或静态库文件的相对路径
 LIBSPATH := ../codes/Camera/lib
 
-VPATH=$(SOURCE_CAMERA_DIR):$(SOURCE_NUMBER_DIR):$(SOURCE_ARMORFINDER_DIR):$(SOURCE_ENERGY_DIR):$(SOURCE_PREPOCESS_DIR):$(SOURCE_TOOLS_DIR)
+VPATH=$(SOURCE_CAMERA_DIR):$(SOURCE_NUMBER_DIR):$(SOURCE_ARMORFINDER_DIR):$(SOURCE_ENERGY_DIR):$(SOURCE_PREPOCESS_DIR):$(SOURCE_TOOLS_DIR):$(SOURCE_CAN_DIR)
 #定义变量pkg表示opencv的包
 PKG = `pkg-config opencv --libs --cflags`
 
@@ -41,7 +44,7 @@ CC = g++
 CFLAGS = -g -o 
 #编译时所依赖的通用c++源程序
 #源程序文件
-SOURCE :=$(wildcard $(SOURCE_CAMERA_DIR)/*.cpp $(SOURCE_NUMBER_DIR)/*.cpp $(SOURCE_ARMORFINDER_DIR)/*.cpp $(SOURCE_ENERGY_DIR)/*.cpp $(SOURCE_PREPOCESS_DIR)/*.cpp $(SOURCE_TOOLS_DIR)/*.cpp main.cpp) 
+SOURCE :=$(wildcard $(SOURCE_CAMERA_DIR)/*.cpp $(SOURCE_NUMBER_DIR)/*.cpp $(SOURCE_ARMORFINDER_DIR)/*.cpp $(SOURCE_ENERGY_DIR)/*.cpp $(SOURCE_PREPOCESS_DIR)/*.cpp $(SOURCE_TOOLS_DIR)/*.cpp $(SOURCE_CAN_DIR)/*.cpp main.cpp) 
 SOURCE_WITHOUT_DIR :=$(notdir $(SOURCE))
 OBJS :=$(patsubst %.cpp,%.o,$(SOURCE_WITHOUT_DIR))
 

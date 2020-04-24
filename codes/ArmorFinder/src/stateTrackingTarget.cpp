@@ -6,10 +6,11 @@
 ------------------------------------------------------*/
 //-----------------------------头文件引用和命名空间-------------------
 #include "ArmorFinder.h"
+#include "cans.h"
 using namespace cv;
 using namespace std;
 
-int canTansfer(unsigned char data[]);
+extern Can can;
 static void sendPosition(cv::Rect2d &rect,Mat src){
     unsigned char data[8];
     // double relative_x=box.getCenter().x-640;
@@ -22,7 +23,7 @@ static void sendPosition(cv::Rect2d &rect,Mat src){
     data[5]=(int((src.cols)/2))&0xFF;
     data[6]=((int((src.rows)/2))>>8)&0xFF;
     data[7]=(int((src.rows)/2))&0xFF;
-    canTansfer(data);
+    can.canTansfer(data);
     // cout<<"x"<<relative_x<<",y:"<<relative_y<<endl;
 }
 bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage) 

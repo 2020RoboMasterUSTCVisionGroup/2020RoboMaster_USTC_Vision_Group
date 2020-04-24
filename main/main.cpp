@@ -15,10 +15,10 @@ int main(int argc, char *argv[], char **env)
     if(run_with_can){
         //发送handshake包
         for(int i = 0; i < 2; i++){
-        int res = canTansfer(handshake);
+        int res = can.canTansfer(handshake);
         }
     	
-        thread receive(canReceive);                       //开启线程接收数据
+        thread receive(canReceive,&can);                       //开启线程接收数据
         receive.detach();
     }
     Mat g_srcImage,g_processImage;
