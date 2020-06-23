@@ -14,10 +14,10 @@ int main(int argc, char *argv[], char **env)
 
     if(run_with_can){
         //发送handshake包
-        for(int i = 0; i < 2; i++){
+        for(int i = 0; i < 3; i++){
         int res = can.canTansfer(handshake);
         }
-    	
+    	cout<<"Send Can Mes Sucess."<<endl;
         thread receive(canReceive,&can);                       //开启线程接收数据
         receive.detach();
     }
@@ -57,24 +57,25 @@ int main(int argc, char *argv[], char **env)
             break;
         }
         }
-        cout<<"--------------A frame start!-------------------"<<endl;
-        //进入追踪模式跳过三帧
-        if(auto_aiming.jump_state == 1 && auto_aiming.jump_state_count <3)
-        {
-            auto_aiming.jump_state_count++;
-            continue;
-        }
+        //cout<<"--------------A frame start!-------------------"<<endl;
+        //进入追踪模式跳过三帧13573210439
+        
+        //if(auto_aiming.jump_state == 1 && auto_aiming.jump_state_count <3)
+        //{
+        //    auto_aiming.jump_state_count++;
+        //    continue;
+        //}
         // cout<<"row:"<<g_srcImage.rows<<endl;
         // cout<<"col:"<<g_srcImage.cols<<endl;
-        namedWindow("g_srcImage",0);
-        resizeWindow("g_srcImage",600,400);
+        //namedWindow("g_srcImage",0);
+        //resizeWindow("g_srcImage",600,400);
         g_processImage = g_srcImage.clone();
         g_preprocess.run(g_processImage); 
         auto_aiming.run(g_srcImage,g_processImage);
         
-        imshow("g_srcImage",g_srcImage);
-        waitKey(1);
-        cout<<"--------------A frame end!---------------------"<<endl;
+        //imshow("g_srcImage",g_srcImage);
+        //waitKey(1);
+        //cout<<"--------------A frame end!---------------------"<<endl;
         // if( lightBox(g_srcImage) == 1 );
         //energy(g_srcImage);
         

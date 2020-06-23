@@ -6,24 +6,25 @@
 ------------------------------------------------------*/
 //-----------------------------头文件引用和命名空间-------------------
 #include "ArmorFinder.h"
-#include "cans.h"
+
 using namespace cv;
 using namespace std;
 
-extern Can can;
-static void sendPosition(cv::Rect2d &rect,Mat src){
+void sendPosition(cv::Rect2d &rect,Mat src){
     unsigned char data[8];
     // double relative_x=box.getCenter().x-640;
     // double relative_y=box.getCenter().y-512;
+    //cout<<"到这"<<endl;
     data[0]=(int(rect.x + rect.width / 2)>>8)&0xFF;
     data[1]=(int(rect.x + rect.width / 2))&0xFF;
-    data[2]=(int(rect.y + rect.width / 2)>>8)&0xFF;
-    data[3]=(int(rect.y + rect.width / 2))&0xFF;
+    data[2]=(int(rect.y + rect.height / 2)>>8)&0xFF;
+    data[3]=(int(rect.y + rect.height / 2))&0xFF;
     data[4]=((int((src.cols)/2))>>8)&0xFF;
     data[5]=(int((src.cols)/2))&0xFF;
     data[6]=((int((src.rows)/2))>>8)&0xFF;
     data[7]=(int((src.rows)/2))&0xFF;
     can.canTansfer(data);
+    //cout<<"Send Messege"<<endl;
     // cout<<"x"<<relative_x<<",y:"<<relative_y<<endl;
 }
 bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage) 
@@ -37,6 +38,7 @@ bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage)
         cout<<"Track fail!"<<endl;
         return false;
     }
+    //cout<<"到这"<<endl;
     cv::circle(srcImage,Point(pos.x + pos.width / 2,pos.y + pos.height / 2),
                 5,cv::Scalar(0,0,255),2);
 
@@ -46,8 +48,10 @@ bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage)
         cv::circle(srcImage,predict,5,cv::Scalar(0,255,255),2);
         // sendPosition(pos,srcImage);
     }    
-
-    showArmorBox("tracker", srcImage, pos);
+    
+    //showArmorBox("tracker", srcImage, pos);
+    sendPosition(target_box.rect,srcImage);
+    
     //追踪出界
     if((pos & cv::Rect2d(0, 0, 1920, 1200)) != pos){
         target_box = ArmorBox();
@@ -102,6 +106,7 @@ bool AutoAiming::stateTrackingTarget(cv::Mat &srcImage,cv::Mat &processImage)
         target_box.light_blobs.clear();
         return false;
     }
+    
     return true;
     // namedWindow("ROI",0);
     // resizeWindow("ROI",600,400);

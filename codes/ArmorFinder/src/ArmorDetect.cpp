@@ -98,8 +98,8 @@
                 if (min_x < 0 || max_x > src.cols || min_y < 0 || max_y > src.rows) {
                     continue;
                 }
-                // if ((max_y + min_y) / 2 < 120) continue;
-                if ((max_x - min_x) / (max_y - min_y) < 0.8) continue;
+                 if ((max_y + min_y) / 2 < 120) continue;
+                //if ((max_x - min_x) / (max_y - min_y) < 0.8) continue;
                 // if((max_x - min_x) / (max_y - min_y) > 1.5) continue;
                 
                 // if(rect_left.height/rect_right.height>1.2

@@ -8,5 +8,5 @@ public:
     int canTansfer(unsigned char data[]);
     int ReadData(unsigned char* buffer);
 };
-
+extern Can can;
 #endif /* _CAN_H_ */

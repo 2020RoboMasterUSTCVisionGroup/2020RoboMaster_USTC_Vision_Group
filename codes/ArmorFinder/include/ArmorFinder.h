@@ -13,6 +13,7 @@
 #include "MvCameraControl.h"    //相机函数
 #include "CameraInit.h"         //相机初始化函数
 #include <unistd.h> 
+#include "cans.h"
 using namespace std;
 using  namespace cv;
 //此处为灯条颜色，对应通道分离可按照此处更改

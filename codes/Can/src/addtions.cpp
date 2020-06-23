@@ -9,6 +9,7 @@ void canReceive(Can *pCan) {
     char buffer[8];
     int k=0; //计时变量
     while (true) {
+        //cout<<"waiting MCU"<<endl;
         if(k==50)
         {
             int j;
@@ -20,8 +21,10 @@ void canReceive(Can *pCan) {
         memset(buffer, 0, sizeof(buffer));  //初始化buffer数组
 
         int nbytes = pCan->ReadData((uint8_t *) buffer);
+        
         if (nbytes==8)  //接收到8个字节的数据，通信正确
         {
+            //cout<<"receieve 8 data"<<endl;
             k=0;
             memcpy(&mcu_data, buffer, sizeof(mcu_data)); //接收到的数据复制到结构体中
         }

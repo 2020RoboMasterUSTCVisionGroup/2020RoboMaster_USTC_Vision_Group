@@ -12,14 +12,14 @@ void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
         case SEARCHING_STATE: 
             try{
                 kf=new Kalman();
-                cout<<"SEARCHING State start!"<<endl;
+                //cout<<"SEARCHING State start!"<<endl;
                 if(stateSearchingTarget(g_srcImage,g_processImage) )
                 {
                     //调高曝光
                     if(true)        //这地方到时候加入分类器
                     {
-                        fExposureTime = 70000;
-                        nRet = MV_CC_SetFloatValue(handle, "ExposureTime", fExposureTime);
+                        //fExposureTime = 70000;
+                        //nRet = MV_CC_SetFloatValue(handle, "ExposureTime", fExposureTime);
                         //sleep(1);//延时1秒
                         //waitKey(1000);
                         /*if (MV_OK == nRet)
@@ -32,8 +32,14 @@ void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
                         }*/
                         //提高曝光
                         //状态改为追踪状态
-                        state = CLASSIFYING_STATE;
-                        cout<<"Changed into CLASSIFYING STATE"<<endl;
+                        //state = CLASSIFYING_STATE;
+                        //cout<<"Changed into CLASSIFYING STATE"<<endl;
+                        state = TRACKING_STATE;
+                        tracker = TrackerKCF::create();
+                        //tracker = TrackerMIL::create();
+                        tracker->init(g_srcImage, target_box.rect);
+                        //追踪帧数
+                        tracking_cnt = 0;
                 
                     }
                 }
@@ -46,7 +52,7 @@ void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
             break;
         case CLASSIFYING_STATE:
             //分类状态
-            cout<<"CLASSIFYING State start!"<<endl;
+            //cout<<"CLASSIFYING State start!"<<endl;
             if(numberClassifyRoi(g_srcImage, g_processImage))
             {
                 jump_state=1;
@@ -79,7 +85,7 @@ void AutoAiming::run(cv::Mat &g_srcImage,cv::Mat &g_processImage)
 
         case TRACKING_STATE:
             //cout<<"Tracking State start!"<<endl;   
-            cout<<"追踪启动成功"<<tracking_cnt<<endl;   
+            //cout<<"追踪启动成功"<<tracking_cnt<<endl;   
             if (!stateTrackingTarget(g_srcImage,g_processImage) || ++tracking_cnt > 100) {    // 最多追踪100帧图像
                 state = SEARCHING_STATE;
                 delete kf;
